@@ -1,8 +1,10 @@
 # 基本的编译执行
 
 这里记录下`java` 最基本的编译执行
-基本结构 `/Users/YJ/study/java-work/javaTest`
-` javaTest/src/Main.java javaTest/lib`
+基本结构 
+`/Users/YJ/study/java-work/javaTest`
+`        javaTest/src/Main.java`
+`        javaTest/lib`
 
 ```java
 // Main.java
