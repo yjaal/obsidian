@@ -1,5 +1,9 @@
 摘录自： [# Markdown数学公式语法](https://www.jianshu.com/p/e74eb43960a1)
 
+```toc
+```
+
+
 ## 行内与独行
 
 1.  行内公式：将公式插入到本行内，符号：`$公式内容$`，如：$xyz$
@@ -19,7 +23,7 @@
 4.  标签，符号`\tag{数字}`，如：$\tag{11}$
 5.  上大括号，符号：`\overbrace{算式}`，如：$\overbrace{a+b+c+d}^{2.0}$
 6.  下大括号，符号：`\underbrace{算式}`，如：$a+\underbrace{b+c}_{1.0}+d$
-7.  上位符号，符号：`\stacrel{上位符号}{基位符号}`，如：$\vec{x}\stackrel{\mathrm{def}}{=}{x_1,\dots,x_n}$
+7.  上位符号，符号：`\stacrel{上位符号}{基位符号}`，如：$\vec{x}\stackrel{\mathrm{def}}{=}{x_1,\dots,x_{n-1},x_n}$
 
 ## 占位符
 
@@ -163,5 +167,9 @@
 |Φ|\Phi|ϕ|\phi|
 |X|X|χ|\chi|
 |Ψ|\Psi|ψ|\psi|
-|Ω|\v|ω|\omega|
+|Ω|\Omega|ω|\omega|
 
+
+## 特殊场景
+
+$G^{'}=(V^{'}, E^{'})$
