@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "97df213aea12028b",
+    "type": "split",
+    "children": [
+      {
+        "id": "00d049d197ef557f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27090272589d3362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/基本算法理论/四、贪心算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03dedb66deac6747",
+    "type": "split",
+    "children": [
+      {
+        "id": "5756972031ad202d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9e4ae15ba007074",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bc370d567ff7d47a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3dc78247bdc987c9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5
+  },
+  "right": {
+    "id": "1a3d631347b82fa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ada901b95cdc75f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff3153fe7aeb2751",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "算法/基本算法理论/四、贪心算法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "761fc42801fd74e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "算法/基本算法理论/四、贪心算法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25cb830c8c5bcbfb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fa9852f60463a0a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "算法/基本算法理论/四、贪心算法.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "27090272589d3362",
+  "lastOpenFiles": [
+    "Linux/sed.md",
+    "Linux/grep.md",
+    "Linux/awk.md",
+    "Linux/less.md",
+    "Linux/[.md",
+    "算法/基本算法理论/一、稳定匹配.md",
+    "java/java基础/收集器.md",
+    "java/java基础/收集器实现 Collectors.md",
+    "golang/基础/基本语法.md",
+    "算法/基本算法理论/四、贪心算法.md"
+  ]
+}
