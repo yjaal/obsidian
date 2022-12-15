@@ -141,6 +141,8 @@
   },
   "active": "27090272589d3362",
   "lastOpenFiles": [
+    "markdown用法/markdown数学公式语法.md",
+    "算法/基本算法理论/四、贪心算法.md",
     "Linux/sed.md",
     "Linux/grep.md",
     "Linux/awk.md",
@@ -148,8 +150,6 @@
     "Linux/[.md",
     "算法/基本算法理论/一、稳定匹配.md",
     "java/java基础/收集器.md",
-    "java/java基础/收集器实现 Collectors.md",
-    "golang/基础/基本语法.md",
-    "算法/基本算法理论/四、贪心算法.md"
+    "java/java基础/收集器实现 Collectors.md"
   ]
 }
