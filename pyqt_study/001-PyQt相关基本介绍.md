@@ -7,13 +7,15 @@
 
 # 2、pycharm with anaconda
 
-这里可以先在anaconda新建一个环境，然后在pycharm选择这个环境
+这里可以先在 anaconda 新建一个环境，然后在 pycharm 选择这个环境
 
-![[img/001-1.png]]
+
+
+![](img/001-1.png)
 
 当然也可以直接在pycharm中选择新创建
 
-![[img/001-2.png]]
+![](img/001-2.png)
 
 这里就会创建一个`pythonProject`的环境。
 

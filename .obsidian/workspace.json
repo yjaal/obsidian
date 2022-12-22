@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "00d049d197ef557f",
+        "id": "1192f2e01749d6b8",
         "type": "tabs",
         "children": [
           {
-            "id": "27090272589d3362",
+            "id": "078229629f0a6a65",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -136,20 +137,28 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
   },
-  "active": "27090272589d3362",
+  "active": "078229629f0a6a65",
   "lastOpenFiles": [
-    "golang/基础/基本语法.md",
-    "算法/基本算法理论/四、贪心算法.md",
-    "markdown用法/markdown数学公式语法.md",
-    "Linux/sed.md",
-    "Linux/grep.md",
-    "Linux/awk.md",
-    "Linux/less.md",
-    "Linux/[.md",
+    "pyqt_study/001-PyQt相关基本介绍.md",
+    "算法/基本算法理论/三、图.md",
     "算法/基本算法理论/一、稳定匹配.md",
-    "java/java基础/收集器.md"
+    "算法/基本算法理论/四、贪心算法.md",
+    "img.md",
+    "markdown用法/markdown数学公式语法.md",
+    "未命名.canvas",
+    "obsidian 使用.md",
+    "markdown用法/markdown基本用法记录.md",
+    "golang/基础/基本语法.md"
   ]
 }
