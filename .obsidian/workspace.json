@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -169,15 +170,15 @@
   },
   "active": "ef2d5421385b885d",
   "lastOpenFiles": [
+    "java/Netty/1-入门体验.md",
+    "golang/基础/3、函数.md",
+    "java/Netty/2-reactor模型及rpc实现.md",
+    "pyqt_study/1. PyQt相关基本介绍.md",
     "obsidian 使用.md",
     "test.md",
-    "golang/基础/3、函数.md",
     "其他/IDEA.md",
-    "pyqt_study/1. PyQt相关基本介绍.md",
     "golang/基础/1、基本语法.md",
     "markdown用法/markdown数学公式语法.md",
-    "markdown用法/markdown基本用法记录.md",
-    "其他/书单.md",
-    "golang/基础/2、复合数据类型.md"
+    "markdown用法/markdown基本用法记录.md"
   ]
 }
