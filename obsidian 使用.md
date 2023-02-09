@@ -64,3 +64,25 @@
 
 
 
+## 图表
+
+`Obsidian` 通过 `Mermaid` 及其所提供的编译器来为用户提供图表的绘制功能。
+
+```mermaid
+sequenceDiagram
+    Alice->>+John: 嗨，John，最近怎样？
+    Alice->>+John: John，听得到我说话吗？
+    John-->>-Alice: 嗨，Alice，我能听到！
+    John-->>-Alice: 最近不错！
+```
+
+```mermaid
+graph TB
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+```
+
+
+更多图表参考：`https://mermaid.js.org/syntax/examples.html`

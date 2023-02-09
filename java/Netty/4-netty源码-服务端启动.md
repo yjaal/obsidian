@@ -485,7 +485,7 @@ protected DefaultChannelPipeline(Channel channel) {
 }
 ```
 
-![32](./img/32.png)
+![](./img/32.png)
 
 其实就是一个双向链表，同时单独维护链表头和尾。这里可以看到初始化了一个 `pipeline`，但是还没有添加自己设置的 `handler `，同时这个 `pipeline`的头和尾都是通过一个对象创建出来的，后面要注意 `handler`之间的传播是如何进行的。
 
@@ -556,7 +556,7 @@ public final ChannelPipeline addLast(EventExecutorGroup group, String name, Chan
 }
 ```
 
-![33](./img/33.png)
+![](./img/33.png)
 
 这里可以看到，首先创建一个 `ChannelHandlerContext`并添加到 `pipeline`中。由于此时 `channel`还未注册完成，所以这里暂时添加了一个延迟任务。
 
@@ -1111,7 +1111,7 @@ p.addLast(new ChannelInitializer<Channel>() {
 
 这里只是作为说明添加的，一般也无需设置。然后添加了一个 `ServerBootstrapAcceptor`。最后会将之前的 `Context`删除，`pipeline`的变化如下
 
-![34](./img/34.png)
+![](./img/34.png)
 
 这里最后说明下，每个 `ChannelHandlerContext`中都包含一个 `ChannelHandler`实例。
 
@@ -1394,7 +1394,7 @@ protected void doBeginRead() throws Exception {
 
 # 5. 服务端启动总结
 
-![36](./img/36.png)
+![](./img/36.png)
 
 注意：红色表示 `Main`线程，蓝色表示主 `Reactor`线程
 
@@ -1410,7 +1410,7 @@ protected void doBeginRead() throws Exception {
 
 前面已经说明了主 `Reactor`线程启动的相关逻辑，这里说明一下启动之后其执行任务的逻辑。
 
-![35](./img/35.png)
+![](./img/35.png)
 
 ```java
 // SingleThreadEventExecutor.java
@@ -1785,7 +1785,7 @@ private void processSelectedKey(SelectionKey k, AbstractNioChannel ch) {
 
 这里基本逻辑比较简单，主要涉及几种类型的 `IO`事件处理，比如连接事件，这发生在客户端，客户端这边直接不分 `bossGroup`和 `workGroup`，只有一个 `workGroup`，那直接在其上进行处理；其后客户端连接服务端，那么服务端这边产生一个 `Accept`事件，此时就得把事件交给服务端的从 `Reactor`来处理了；后续就是客户端和服务端各自处理其上的读写请求了。下面看具体的处理。
 
-![37](./img/37.png)
+![](./img/37.png)
 
 注意：
 
