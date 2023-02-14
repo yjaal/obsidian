@@ -127,3 +127,158 @@ public class RegexMatches {
 
 ## Matcher 类方法
 
+### 索引方法
+
+索引方法提供了有用的索引值，精确表明输入字符串中在哪能找到匹配：
+
+|方法|说明|
+|-|-|
+| `public int start()` |返回以前匹配的初始索引|
+| `public int start(int group)` |返回在以前的匹配操作期间，由给定组所捕获的子序列的初始索引|
+| `public int end()` |返回最后匹配字符之后的偏移量|
+| `public int end(int group)` |返回在以前的匹配操作期间，由给定组所捕获子序列的最后字符之后的偏移量|
+
+
+```java
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern; 
+public class RegexMatches { 
+	private static final String REGEX = "\\bcat\\b"; 
+	private static final String INPUT = "cat cat cat cattie cat"; 
+	public static void main( String[] args ){ 
+		Pattern p = Pattern.compile(REGEX); 
+		Matcher m = p.matcher(INPUT); // 获取 matcher 对象 
+		int count = 0; 
+		while(m.find()) { 
+			count++; System.out.println("Match number "+count); 
+			System.out.println("start(): "+m.start()); 
+			System.out.println("end(): "+m.end()); 
+		} 
+	} 
+}
+```
+
+输出
+
+```
+Match number 1
+start(): 0
+end(): 3
+Match number 2
+start(): 4
+end(): 7
+Match number 3
+start(): 8
+end(): 11
+Match number 4
+start(): 19
+end(): 22
+```
+
+
+
+### 查找方法
+
+|方法|说明|
+|-|-|
+| `public boolean lookingAt()` |尝试将从*区域开头*开始的输入序列与该模式匹配|
+| `public boolean find()` |尝试查找与该模式匹配的输入序列的下一个子序列|
+| `public boolean find(int start)` |重置此匹配器，然后尝试查找匹配该模式、从指定索引开始的输入序列的下一个子序列|
+| `public boolean matches()` |尝试将*整个区域*与模式匹配|
+
+```java
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern; 
+public class RegexMatches { 
+	private static final String REGEX = "foo"; 
+	private static final String INPUT = "fooooooooooooooooo"; 
+	private static final String INPUT2 = "ooooofoooooooooooo"; 
+	private static Pattern pattern; 
+	private static Matcher matcher; 
+	private static Matcher matcher2; 
+	
+	public static void main( String[] args ){ 
+		pattern = Pattern.compile(REGEX); 
+		matcher = pattern.matcher(INPUT); 
+		matcher2 = pattern.matcher(INPUT2); 
+		
+		System.out.println("Current REGEX is: "+REGEX); 
+		System.out.println("Current INPUT is: "+INPUT); 
+		System.out.println("Current INPUT2 is: "+INPUT2); 
+
+
+		// 从开头进行匹配
+		System.out.println("lookingAt(): "+matcher.lookingAt());
+		// 完全匹配
+		System.out.println("matches(): "+matcher.matches()); 
+		System.out.println("lookingAt(): "+matcher2.lookingAt()); 
+	} 
+}
+```
+
+输出
+```
+Current REGEX is: foo
+Current INPUT is: fooooooooooooooooo
+Current INPUT2 is: ooooofoooooooooooo
+lookingAt(): true
+matches(): false
+lookingAt(): false
+```
+
+### 替换方法
+
+|方法|说明|
+|-|-|
+| `Matcher appendReplacement(StringBuffer sb, String replacement)`|实现非终端添加和替换步骤|
+| `StringBuffer appendTail(StringBuffer sb)` |实现终端添加和替换步骤|
+| `String replaceAll(String replacement)` |替换模式与给定替换字符串相匹配的输入序列的每个子序列|
+| `String replaceFirst(String replacement)` |替换模式与给定替换字符串匹配的输入序列的第一个子序列|
+| `static String quoteReplacement(String s)` |返回指定字符串的字面替换字符串。返回字符串，就像传递给 Matcher 类的 `appendReplacement` 方法一个字面字符串一样|
+
+
+```java
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern; 
+
+public class RegexMatches { 
+	private static String REGEX = "dog"; 
+	private static String INPUT = "The dog says meow. All dogs say meow."; 
+	private static String REPLACE = "cat"; 
+	public static void main(String[] args) { 
+		Pattern p = Pattern.compile(REGEX); 
+		// get a matcher object 
+		Matcher m = p.matcher(INPUT); 
+		INPUT = m.replaceAll(REPLACE); 
+		System.out.println(INPUT); 
+	} 
+}
+
+// 输出
+The cat says meow. All cats say meow.
+```
+
+```java
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern; 
+public class RegexMatches { 
+	private static String REGEX = "a*b"; 
+	private static String INPUT = "aabfooaabfooabfoobkkk"; 
+	private static String REPLACE = "-"; 
+	public static void main(String[] args) { 
+		Pattern p = Pattern.compile(REGEX); 
+		// 获取 matcher 对象 
+		Matcher m = p.matcher(INPUT); 
+		StringBuffer sb = new StringBuffer(); 
+		while(m.find()){ 
+			m.appendReplacement(sb,REPLACE); 
+		} 
+		m.appendTail(sb); 
+		System.out.println(sb.toString()); 
+	} 
+}
+
+// 输出
+-foo-foo-foo-kkk
+```
+
