@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -169,15 +170,15 @@
   },
   "active": "45c7d35a86365190",
   "lastOpenFiles": [
+    "golang/基础/1、基本语法.md",
+    "java/常用技巧/spring-InitializingBean.md",
+    "java/常用技巧/mybatis-OGNL扩展.md",
+    "golang/基础/2、复合数据类型.md",
+    "golang/基础/5、接口.md",
+    "日记/2023-02-06.md",
     "golang/安装及工具.md",
     "java/java基础/Java正则表达式使用.md",
     "python/pycharm.md",
-    "其他/vscode.md",
-    "其他/正则.md",
-    "golang/基础/5、接口.md",
-    "java/时间工具.md",
-    "MySQL/MySQL函数.md",
-    "MySQL/数据库索引怎么工作.md",
-    "java/Netty/有了HTTP，为什么还要RPC.md"
+    "其他/vscode.md"
   ]
 }
