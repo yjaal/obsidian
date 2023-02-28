@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "13589174af9c1492",
+        "id": "a04bf6b28477e229",
         "type": "tabs",
         "children": [
           {
-            "id": "0f69e61cca682492",
+            "id": "002260c48209bfe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/基础/5、接口.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e89523fd2f2e8f33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shell/nushell/7. 自定义命令.md",
+                "file": "golang/Goroutines和Channels/Channels.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shell/nushell/7. 自定义命令.md",
+                "file": "golang/Goroutines和Channels/Channels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shell/nushell/7. 自定义命令.md",
+                "file": "golang/Goroutines和Channels/Channels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shell/nushell/7. 自定义命令.md"
+                "file": "golang/Goroutines和Channels/Channels.md"
               }
             }
           },
@@ -180,17 +168,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e89523fd2f2e8f33",
+  "active": "002260c48209bfe8",
   "lastOpenFiles": [
-    "shell/nushell/0. nushell入门.md",
-    "shell/nushell/6. 管道.md",
-    "shell/nushell/5. 处理表格.md",
-    "shell/nushell/4. 处理列表.md",
-    "shell/nushell/3. 处理字符串.md",
-    "shell/nushell/2. 加载数据.md",
-    "shell/nushell/1. 数据类型.md",
+    "golang/Goroutines和Channels/示例：并发的echo服务.md",
+    "golang/Goroutines和Channels/2、示例：并发的Clock服务.md",
     "golang/基础/5、接口.md",
-    "golang/基础/code/eval/parse.md",
-    "golang/基础/code/eval/eval_test.md"
+    "golang/Goroutines和Channels/1、Goroutines.md",
+    "golang/基础/如何优雅的使用Go接口.md",
+    "shell/nushell/7. 自定义命令.md",
+    "其他/vscode.md",
+    "shell/nushell/0. nushell入门.md",
+    "shell/nushell/2. 加载数据.md",
+    "shell/nushell/6. 管道.md"
   ]
 }
