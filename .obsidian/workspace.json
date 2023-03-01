@@ -170,15 +170,15 @@
   },
   "active": "002260c48209bfe8",
   "lastOpenFiles": [
+    "markdown用法/画图.md",
+    "golang/Goroutines和Channels/Channels.md",
+    "markdown用法/markdown基本用法记录.md",
+    "markdown用法/markdown数学公式语法.md",
+    "golang/基础/5、接口.md",
     "golang/Goroutines和Channels/示例：并发的echo服务.md",
     "golang/Goroutines和Channels/2、示例：并发的Clock服务.md",
-    "golang/基础/5、接口.md",
     "golang/Goroutines和Channels/1、Goroutines.md",
     "golang/基础/如何优雅的使用Go接口.md",
-    "shell/nushell/7. 自定义命令.md",
-    "其他/vscode.md",
-    "shell/nushell/0. nushell入门.md",
-    "shell/nushell/2. 加载数据.md",
-    "shell/nushell/6. 管道.md"
+    "shell/nushell/7. 自定义命令.md"
   ]
 }
