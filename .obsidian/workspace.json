@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a04bf6b28477e229",
+        "id": "a44b88a74594462c",
         "type": "tabs",
         "children": [
           {
-            "id": "002260c48209bfe8",
+            "id": "516aac4d4ed417fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/Goroutines和Channels/Channels.md",
+                "file": "golang/Goroutines和Channels/8、示例：并发的目录遍历.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "606c0504039b7c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "golang/Goroutines和Channels/9、并发的退出.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/Goroutines和Channels/Channels.md",
+                "file": "golang/Goroutines和Channels/9、并发的退出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/Goroutines和Channels/Channels.md",
+                "file": "golang/Goroutines和Channels/9、并发的退出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/Goroutines和Channels/Channels.md"
+                "file": "golang/Goroutines和Channels/9、并发的退出.md"
               }
             }
           },
@@ -168,17 +181,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "002260c48209bfe8",
+  "active": "606c0504039b7c9a",
   "lastOpenFiles": [
-    "markdown用法/画图.md",
-    "golang/Goroutines和Channels/Channels.md",
-    "markdown用法/markdown基本用法记录.md",
-    "markdown用法/markdown数学公式语法.md",
-    "golang/基础/5、接口.md",
-    "golang/Goroutines和Channels/示例：并发的echo服务.md",
-    "golang/Goroutines和Channels/2、示例：并发的Clock服务.md",
-    "golang/Goroutines和Channels/1、Goroutines.md",
-    "golang/基础/如何优雅的使用Go接口.md",
-    "shell/nushell/7. 自定义命令.md"
+    "golang/Goroutines和Channels/8、示例：并发的目录遍历.md",
+    "golang/Goroutines和Channels/4、Channels.md",
+    "golang/Goroutines和Channels/7、基于select的多路复用.md",
+    "其他/Aria2.md",
+    "其他/Alist2.md",
+    "其他/obsidian 使用.md",
+    "java/guava/基本工具.md",
+    "java/guava/cache使用.md",
+    "Linux/ssh-copy-id.md",
+    "Linux/sed.md"
   ]
 }

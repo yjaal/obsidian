@@ -243,6 +243,13 @@ func main() {
 
 调用 `counter（naturals）` 时，`naturals` 的类型将隐式地从 `chan int ` 转换成 `chan<- int`。调用 `printer (squares)` 也会导致相似的隐式转换，这一次是转换为 ` <-chan int ` 类型只接收型的 `channel`。任何双向 `channel` 向单向 `channel` 变量的赋值操作都将导致该隐式转换。这里并没有反向转换的语法：也就是不能将一个类似 ` chan<- int ` 类型的单向型的 `channel` 转换为 ` chan int ` 类型的双向型的 `channel`。
 
+```go
+// 输出型
+var a <-chan int
+// 输入型
+var b chan<- int
+```
+
 ## 带缓存的 Channels
 
 带缓存的 `Channel` 内部持有一个元素队列。队列的最大容量是在调用 `make` 函数创建 `channel` 时通过第二个参数指定的。下面的语句创建了一个可以持有三个字符串元素的带缓存 `Channel`。下图是 `ch` 变量对应的 `channel` 的图形表示形式。

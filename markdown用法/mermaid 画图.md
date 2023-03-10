@@ -4,6 +4,8 @@
 
 ## markdown 语法
 
+https://mermaid.js.org/intro/
+
 当我需要画图时插入如下这样的一个代码块：
 
 ````
