@@ -387,7 +387,7 @@ public interface CodeConfCache{
 
 @Component
 public class CodeConfCacheGuavaImpl extends CodeConfCache{
-	private static LoadingCache<String, CodeConf> CODE_CACHE = null;
+	private static LoadingCache<String, Optional<CodeConf>> CODE_CACHE = null;
 
 	@Autowired
 	private CodeConfDao codeConfDao;
@@ -396,26 +396,30 @@ public class CodeConfCacheGuavaImpl extends CodeConfCache{
 		CODE_CACHE = CacheBuilder.newBuilder()
 			.expireAfterWrite(60, TimeUnit.SECONDS)
 			.maximumSize(50)
-			.build(new CacheLoader<String, CodeConfEntiry>(){
+			.build(new CacheLoader<String, Optional<CodeConf>>(){
 				@Override
-				public CodeConfEntity load(String key){
-					if(StringUtils.isBlank(key)){
-						return null;
+				public Optional<CodeConf> load(String key){
+					if(StringUtils.isEmpty(key)){
+						return Optional.empty();
 					}
-					return codeConfDao.selectByPrimaryKey(key)
+					CodeConf conf = codeConfDao.selectByPrimaryKey(key);
+					if(Objects.isNull(conf)){
+						return Optional.empty();
+					}
+					return Optional.of(conf);
 				}
 			});
 	}
 
 	@Override
-	public CodeConfEntity getByBizType(String bizType){
+	public Optional<CodeConf> getByBizType(String bizType){
 		try{
 			return CODE_CACHE.get(bizType);
 		}catch(ExecutionException e){
-			return null;
+			return Optional.empty();
 		}
 	}
 }
 ```
 
-这里当缓存中没有我们要的数据时，就会执行 `load` 方法查找。
+这里当缓存中没有我们要的数据时，就会执行 `load` 方法查找。注意：不能返回为 `null`，否则会报异常。如果确有这个需求，可以使用 `Optional`。

@@ -8,5 +8,6 @@
     "downscalePercent": 100
   },
   "showLineNumber": false,
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "alwaysUpdateLinks": true
 }

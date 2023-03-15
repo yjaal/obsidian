@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a44b88a74594462c",
+        "id": "07d034750633294e",
         "type": "tabs",
         "children": [
           {
-            "id": "516aac4d4ed417fe",
+            "id": "217b390f3a427daa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/Goroutines和Channels/8、示例：并发的目录遍历.md",
+                "file": "其他/other.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "606c0504039b7c9a",
+            "id": "e6a1a5ebb93a7ae8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/Goroutines和Channels/9、并发的退出.md",
+                "file": "chatGPT/基本使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/Goroutines和Channels/9、并发的退出.md",
+                "file": "chatGPT/基本使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/Goroutines和Channels/9、并发的退出.md",
+                "file": "chatGPT/基本使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/Goroutines和Channels/9、并发的退出.md"
+                "file": "chatGPT/基本使用.md"
               }
             }
           },
@@ -181,17 +181,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "606c0504039b7c9a",
+  "active": "e6a1a5ebb93a7ae8",
   "lastOpenFiles": [
-    "golang/Goroutines和Channels/8、示例：并发的目录遍历.md",
-    "golang/Goroutines和Channels/4、Channels.md",
-    "golang/Goroutines和Channels/7、基于select的多路复用.md",
-    "其他/Aria2.md",
-    "其他/Alist2.md",
-    "其他/obsidian 使用.md",
-    "java/guava/基本工具.md",
-    "java/guava/cache使用.md",
-    "Linux/ssh-copy-id.md",
-    "Linux/sed.md"
+    "其他/other.md",
+    "chatGPT/基本使用.md",
+    "python/anaconda/基本使用.md",
+    "日记/2023-02-06.md",
+    "其他/IDEA.md",
+    "其他/oh-my-zsh.md",
+    "其他/书单.md",
+    "其他/正则.md",
+    "其他/vscode.md",
+    "其他/vmware fusion.md"
   ]
 }

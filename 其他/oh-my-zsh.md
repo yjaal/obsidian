@@ -1,5 +1,5 @@
 
-```shell
+```sh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -109,72 +109,7 @@ ZSH_THEME="robbyrussell"
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
-Last login: Wed Mar  2 20:35:37 on ttys001
-[oh-my-zsh] Would you like to update? [Y/n] y
-Updating Oh My Zsh
-fatal: remote error:
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-There was an error updating. Try again later?
-/Users/YJ/.zshrc:144: bad assignment
-➜  ~ vim ~/.zshrc
-➜  ~ source ~/.zshrc
-[oh-my-zsh] Would you like to update? [Y/n] y
-Updating Oh My Zsh
-fatal: remote error:
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-There was an error updating. Try again later?
-➜  ~ whereis oh-my-zsh
-➜  ~ source ~/.zshrc
-[oh-my-zsh] Would you like to update? [Y/n] y
-Updating Oh My Zsh
-fatal: remote error:
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-There was an error updating. Try again later?
-➜  ~ vim ~/.zshrc
-➜  ~ ls
-Applications               Library                    Public                     softInstall.txt
-Desktop                    Movies                     Virtual Machines.localized store
-Documents                  Music                      logs                       study
-Downloads                  Pictures                   soft
-➜  ~ cd $ZSH
-➜  .oh-my-zsh git:(master) ls
-CODE_OF_CONDUCT.md README.md          custom             oh-my-zsh.sh       themes
-CONTRIBUTING.md    SECURITY.md        lib                plugins            tools
-LICENSE.txt        cache              log                templates
-➜  .oh-my-zsh git:(master) pwd
-/Users/YJ/.oh-my-zsh
-➜  .oh-my-zsh git:(master) cd /Users/YJ
-➜  ~ ls
-Applications               Library                    Public                     softInstall.txt
-Desktop                    Movies                     Virtual Machines.localized store
-Documents                  Music                      logs                       study
-Downloads                  Pictures                   soft
-➜  ~ cd .oh-my-zsh
-➜  .oh-my-zsh git:(master) ls
-CODE_OF_CONDUCT.md README.md          custom             oh-my-zsh.sh       themes
-CONTRIBUTING.md    SECURITY.md        lib                plugins            tools
-LICENSE.txt        cache              log                templates
-➜  .oh-my-zsh git:(master) git pull
-hint: Pulling without specifying how to reconcile divergent branches is
-hint: discouraged. You can squelch this message by running one of the following
-hint: commands sometime before your next pull:
-hint:
-hint:   git config pull.rebase false  # merge (the default strategy)
-hint:   git config pull.rebase true   # rebase
-hint:   git config pull.ff only       # fast-forward only
-hint:
-hint: You can replace "git config" with "git config --global" to set a default
-hint: preference for all repositories. You can also pass --rebase, --no-rebase,
-hint: or --ff-only on the command line to override the configured default per
-hint: invocation.
-fatal: remote error:
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-➜  .oh-my-zsh git:(master) cd ..
-➜  ~
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
