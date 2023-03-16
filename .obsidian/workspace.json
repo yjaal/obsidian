@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "217b390f3a427daa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "其他/other.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e6a1a5ebb93a7ae8",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +172,13 @@
   "lastOpenFiles": [
     "其他/other.md",
     "chatGPT/基本使用.md",
+    "golang/Goroutines和Channels/9、并发的退出.md",
     "python/anaconda/基本使用.md",
     "日记/2023-02-06.md",
     "其他/IDEA.md",
     "其他/oh-my-zsh.md",
     "其他/书单.md",
     "其他/正则.md",
-    "其他/vscode.md",
-    "其他/vmware fusion.md"
+    "其他/vscode.md"
   ]
 }
