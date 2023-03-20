@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "07d034750633294e",
+        "id": "77911f9c3cba6c81",
         "type": "tabs",
         "children": [
           {
-            "id": "e6a1a5ebb93a7ae8",
+            "id": "f584db4892f0f9cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatGPT/基本使用.md",
+                "file": "golang/5-测试/1.  go test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4256a277b23cd8f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chatGPT/基本使用.md",
+                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chatGPT/基本使用.md",
+                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chatGPT/基本使用.md"
+                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md"
               }
             }
           },
@@ -168,17 +180,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e6a1a5ebb93a7ae8",
+  "active": "4256a277b23cd8f0",
   "lastOpenFiles": [
+    "golang/5-测试/1.  go test.md",
+    "golang/4-包和工具/2. 工具.md",
+    "其他/obsidian 使用.md",
+    "golang/1-基础/2、复合数据类型.md",
+    "golang/4-包和工具/1. 包.md",
+    "golang/3-基于共享变量的并发/3. 竞争条件检测 && Goroutines和线程.md",
+    "golang/3-基于共享变量的并发/2. 内存同步 & sync.Once惰性初始化.md",
     "其他/other.md",
-    "chatGPT/基本使用.md",
-    "golang/Goroutines和Channels/9、并发的退出.md",
-    "python/anaconda/基本使用.md",
-    "日记/2023-02-06.md",
-    "其他/IDEA.md",
-    "其他/oh-my-zsh.md",
-    "其他/书单.md",
-    "其他/正则.md",
-    "其他/vscode.md"
+    "golang/3-基于共享变量的并发/1.  sync.Mutex互斥锁 & sync.RWMutex读写锁.md",
+    "chatGPT/基本使用.md"
   ]
 }

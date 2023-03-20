@@ -63,26 +63,6 @@
 这是一个核心插件，我们可以选中某个文件夹然后右键创建，也可以通过命令来创建，创建好之后则可以将本笔记仓库中的文档以卡片的形式添加到 canvas 中（右键添加）。添加之后可以修改卡片颜色，大小，连线等等。
 
 
+## 块饮用
 
-## 图表
-
-`Obsidian` 通过 `Mermaid` 及其所提供的编译器来为用户提供图表的绘制功能。
-
-```mermaid
-sequenceDiagram
-    Alice->>+John: 嗨，John，最近怎样？
-    Alice->>+John: John，听得到我说话吗？
-    John-->>-Alice: 嗨，Alice，我能听到！
-    John-->>-Alice: 最近不错！
-```
-
-```mermaid
-graph TB
-    A[Square Rect] -- Link text --> B((Circle))
-    A --> C(Round Rect)
-    B --> D{Rhombus}
-    C --> D
-```
-
-
-更多图表参考：`https://mermaid.js.org/syntax/examples.html`
+例如 [[2、复合数据类型#文本和 HTML 模板]]
