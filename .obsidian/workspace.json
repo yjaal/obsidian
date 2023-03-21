@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "77911f9c3cba6c81",
+        "id": "8d6998b761b77eaa",
         "type": "tabs",
         "children": [
           {
-            "id": "f584db4892f0f9cd",
+            "id": "2c9ef975cd89b1eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/5-测试/1.  go test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4256a277b23cd8f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
+                "file": "golang/go mod 使用.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
+                "file": "golang/go mod 使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
+                "file": "golang/go mod 使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/6-反射/1. reflect.Type 和 reflect.Value.md"
+                "file": "golang/go mod 使用.md"
               }
             }
           },
@@ -180,17 +168,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4256a277b23cd8f0",
+  "active": "2c9ef975cd89b1eb",
   "lastOpenFiles": [
-    "golang/5-测试/1.  go test.md",
-    "golang/4-包和工具/2. 工具.md",
-    "其他/obsidian 使用.md",
-    "golang/1-基础/2、复合数据类型.md",
-    "golang/4-包和工具/1. 包.md",
-    "golang/3-基于共享变量的并发/3. 竞争条件检测 && Goroutines和线程.md",
-    "golang/3-基于共享变量的并发/2. 内存同步 & sync.Once惰性初始化.md",
-    "其他/other.md",
-    "golang/3-基于共享变量的并发/1.  sync.Mutex互斥锁 & sync.RWMutex读写锁.md",
-    "chatGPT/基本使用.md"
+    "upload-images.jianshu.io/upload_images/1293367-6d16a0d961653490.png?imageMogr2/auto-orient/strip.md",
+    "golang/go mod 使用.md",
+    "chatGPT/基本使用.md",
+    "golang/1-基础/如何优雅的使用Go接口.md",
+    "golang/6-反射/2. 通过reflect.Value修改值.md",
+    "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
+    "golang/7-底层编程/4. 通过cgo调用C代码.md",
+    "golang/7-底层编程/3. 示例：深度相等判断.md",
+    "golang/7-底层编程/2. unsafe.Pointer.md",
+    "golang/7-底层编程/1. unsafe.Sizeof, Alignof 和 Offsetof.md"
   ]
 }
