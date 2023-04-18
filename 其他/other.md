@@ -3,7 +3,7 @@
 服务器地址t.91tianlu. pw 替换成 120.195.180.140
 
 Api key:
-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
+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
 
 
 Mac 系统中使用小飞机代理走单是 sockt 协议，这个协议代理对终端是无效的，还需要在终端中设置
@@ -89,6 +89,9 @@ export https_proxy="http://127.0.0.1:1087"
 -   滴滴出行：使用腾讯AI的情感分析技术，了解用户对于滴滴出行的真实反馈和需求。
 
 以上仅是一部分腾讯AI开放平台的用户，实际应用情况还需结合具体的业务需求和情况进行定制和优化。
+
+
+
 
 
 

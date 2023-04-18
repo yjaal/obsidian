@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9c242949f131af4b",
+        "id": "42157cd9757104a9",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b8feaee03ca5dd",
+            "id": "a1da0dcbf88a7e91",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "golang/5-测试/2. 案例.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 213.5
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "golang/5-测试/2. 案例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "golang/5-测试/2. 案例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "golang/5-测试/2. 案例.md"
+              }
             }
           },
           {
@@ -147,29 +155,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "privacy-glasses:Hide all": false,
       "privacy-glasses:Reveal non-private": false,
       "privacy-glasses:Reveal all": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a2b8feaee03ca5dd",
+  "active": "a1da0dcbf88a7e91",
   "lastOpenFiles": [
-    "golang/go mod 使用.md",
-    "upload-images.jianshu.io/upload_images/1293367-6d16a0d961653490.png?imageMogr2/auto-orient/strip.md",
+    "golang/5-测试/1.  go test.md",
+    "golang/5-测试/2. 案例.md",
+    "golang/1-基础/6、案例.md",
+    "golang/5-测试/img/002.png",
+    "golang/5-测试/img/003.png",
+    "chatGPT/img/SCR-20230413-rnt.png",
+    "docker/mypg.md",
     "chatGPT/基本使用.md",
-    "golang/1-基础/如何优雅的使用Go接口.md",
-    "golang/6-反射/2. 通过reflect.Value修改值.md",
-    "golang/6-反射/1. reflect.Type 和 reflect.Value.md",
-    "golang/7-底层编程/4. 通过cgo调用C代码.md",
-    "golang/7-底层编程/3. 示例：深度相等判断.md",
-    "golang/7-底层编程/2. unsafe.Pointer.md",
-    "golang/7-底层编程/1. unsafe.Sizeof, Alignof 和 Offsetof.md"
+    "chatGPT/prompt使用.md",
+    "docker/docker run.md",
+    "docker/myredis.md",
+    "docker/docker exec.md",
+    "java/常用技巧/spring-CommandLineRunner.md",
+    "java/常用技巧/spring-ApplicationContextAware.md",
+    "chatGPT/cursor.md",
+    "其他/mac.md",
+    "其他/other.md",
+    "js/node && npm/安装配置.md",
+    "其他/IDEA.md",
+    "其他/vmware fusion.md",
+    "其他/git常用命令.md",
+    "其他/git提交规范.md"
   ]
 }
