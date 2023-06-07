@@ -106,7 +106,7 @@ GOSUMDB=off
 我们看下目录：
 
 此目录就相当于一个依赖包的库。
-`cd /Users/YJ/study/go-work/go-repo`
+`cd /Users/YJ/study/go-work/go-repo/pkg`
 
 ```css
 ├── darwin_amd64
@@ -207,7 +207,7 @@ go 1.14
 
 #### 2. 添加依赖
 
-创建 main.go文件
+创建 `main.go` 文件
 
 ```go
 package main
@@ -247,7 +247,7 @@ go 会自动生成一个 `go.sum` 文件来记录 `dependency tree`
 
 再次执行脚本 `go run main.go` 发现跳过了检查并安装依赖的步骤。
 
-可以使用命令 `go list -m -u all` 来检查可以升级的 package，使用 `go get -u need-upgrade-package` 升级后会将新的依赖版本更新到 `go. mod *` 也可以使用 `go get -u` 升级所有依赖
+可以使用命令 `go list -m -u all` 来检查可以升级的 `package`，使用 ` go get -u need-upgrade-package ` 升级后会将新的依赖版本更新到 ` go.mod *` 也可以使用 ` go get -u ` 升级所有依赖
 
 去 `mod` 包缓存下看看
 
@@ -276,7 +276,7 @@ replace (
 
 ### go mod 发布和使用
 
-参考 Roberto Selbach 写的 `go mod` 入门文章，文末，我给出链接
+参考 `Roberto Selbach` 写的 ` go mod ` 入门文章，文末，我给出链接
 
 ### Creating a Module
 

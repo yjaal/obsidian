@@ -17,6 +17,10 @@
     
 -   2、`commit`了，同时已经`push`了 这个很危险
     
+强行回退到某个 commit
+```
+git reset --hard xxx
+```
 
 分支合并 `https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6`
 
@@ -36,12 +40,26 @@ git branch --set-upstream-to=origin/new-branch new-branch
 
 1、本地工程首先要初始化：`git init`
 
-2、在`github`建立同名仓库
+2、在 `github` 建立同名仓库, 当然本地还需要
 
-3、建立两者联系： `git remote add github https://github.com/yjaal/ChatRoom`
+```
+git add .
+git commit -m "init"
+```
 
-4、拉取：`git pull origin master` 这里如果本地或者远程仓库有同名文件冲突，可以先删除其中一个。若本地提交过一个文件，或者远程仓库也提交过一个文件， `git`认为这是两个分支，此时：`git pull gitee master --allow-unrelated-histories`， `--allow-unrelated-histories`会允许关联两个分支的历史分支
+3、建立两者联系： `git remote add origin https://github.com/yjaal/spring-security.git`
+
+4、拉取：`git pull origin master` 这里如果本地或者远程仓库有同名文件冲突，可以先删除其中一个。若本地提交过一个文件，或者远程仓库也提交过一个文件， `git` 认为这是两个分支，此时：`git pull gitee master --allow-unrelated-histories`， `--allow-unrelated-histories` 会允许关联两个分支的历史分支。
+最新的需要使用命令
+
+
 
 5、提交：`git push --set-upstream github master`
 
+```
+git push -u origin "main"
+```
+
 查看本地仓库当前关联的远程地址: `git remote`
+
+

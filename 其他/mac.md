@@ -22,6 +22,30 @@ sudo umount /dev/disk2s1
 sudo mount -t ntfs -o rw,nobrowse /dev/disk2s1 /Users/YJ/Desktop/MyDisk
 ```
 
+移动命令
+
+```bash
+mv xx /Volumes/YJ-disk
+```
+
+
+## 代理
+
+有时候我们本地起的端口可能访问不了（比如 `http://localhost:8080` ），有可能是代理导致的，可以关闭代理软件，同时清除代理设置
+
+```sh
+unset http_proxy  
+unset https_proxy
+```
+来关闭代理，一般代理端口是 1087，恢复的话可以重新执行一下
+
+```bash
+source ~/.zshrc
+```
+
+
+
+
 ## 本地相关软件安装记录
 
 ```sh
