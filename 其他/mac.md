@@ -112,3 +112,28 @@ https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u345-b01
 10、oh_my_zsh相关插件和主题放在ohmyzsh目录中，主题现在使用的是powelevel10k
 升级命令 omz update
 ```
+
+
+## 终端命令
+
+### 删除一行命令:Ctrl+u
+
+### 打开当前目录：Open . 
+
+### 回到行首：Ctrl+A
+
+### 回到行尾：Ctrl+E
+
+### 从光标处开始删除直到行尾：Ctrl+K
+
+### 上下左右
+
+```
+fn键+左方向键是HOME
+
+fn键+右方向键是END
+
+fn+上方向键是page up
+
+fn+下方向键是page down
+```

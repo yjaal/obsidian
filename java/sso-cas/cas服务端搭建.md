@@ -54,6 +54,12 @@ keytool -import -trustcacerts -alias tomcatHttps -file /Users/YJ/soft/apache-tom
 
 这里的密码是 `changeit`。
 
+删除
+
+```
+keytool -delete -alias tomcatHttps -keystore "/Users/YJ/soft/open-jdk8/Contents/Home/jre/lib/security/cacerts"  -storepass changeit
+```
+
 ### Tomcat 配置
 
 在
