@@ -29,6 +29,24 @@ String str = aList.stream()
 System.out.println(str)
 ```
 
+### 2.3 集合转 Map
+
+给定一个对象
+
+```java
+public class Person{
+	private String id;
+	private String name;
+	private int age;
+}
+```
+
+```java
+// 一般意义来说是这样的
+List<Person> persons = new ArrayList();
+Map<String, List<Person> pMap1 = persons.stream()
+			.collect(Collectors.toMap())
+```
 
 ## 3、日期时间
 

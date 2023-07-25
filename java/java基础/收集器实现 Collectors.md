@@ -253,11 +253,13 @@ public static <T, K, D, A, M extends Map<K, D>>
         }
     }
 ```
+
 上面三个方法类似，可以这样理解，首先需要定义是用传入数据的哪个属性进行分组，于是需要传入一个转换器，比如 `Student::getAge`。其次还需要一个收集器来收集最终结果，默认的容器就是 `Map`。最终默认收集器是 `List`。
+
 ```java
 // List: {10=[Student (id=3, name=王五, birthday=2011-03-03, age=10, score=32.123)], 11=[Student (id=2, name=李四, birthday=2010-02-02, age=11, score=22.123)], 12=[Student (id=1, name=张三, birthday=2009-01-01, age=12, score=12.123)]}
 final Map<Integer, List<Student>> map1 = students.stream()
-				.collect(Collectors. groupingBy(Student::getAge));
+				.collect(Collectors.groupingBy(Student::getAge));
 // Set: {10=[Student (id=3, name=王五, birthday=2011-03-03, age=10, score=32.123)], 11=[Student (id=2, name=李四, birthday=2010-02-02, age=11, score=22.123)], 12=[Student (id=1, name=张三, birthday=2009-01-01, age=12, score=12.123)]}
 final Map<Integer, Set<Student>> map12 = students.stream().collect(Collectors. groupingBy(Student::getAge, Collectors.toSet()));
 ```

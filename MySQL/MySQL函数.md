@@ -146,6 +146,15 @@ select timediff ('2019-06-03 12:30:00 ', '2019-06-03 12:29:30 ')    -- 00:00:30
 select timediff (' 12:30:00 ', ' 12:29:30 ')    -- 00:00:30
 ```
 
+### Unix 时间转换
+
+```sql
+select JOB_NAME, from_unixtime(PREV_FIRE_TIME/1000, '%Y%m%d %H:%m:%s'), from_unixtime(NEXT_FIRE_TIME/1000, '%Y%m%d %H:%m:%s') from QRTZ_TRIGGERS where TRIGGER_NAME = 'FixFunctionStatisticsDetailDataTaskTrigger';
+
+select UNIX_TIMESTAMP(now()) from dual;
+select from_unixtime(1689757300000/1000, '%Y%m%d %H:%m:%s') from dual
+```
+
 ## 高级表达式
 
 ### @i:=@i+1

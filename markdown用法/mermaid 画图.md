@@ -278,6 +278,22 @@ sequenceDiagram
 ```
 
 
+## 大小调整
 
+```mermaid
+%%{init:{'theme':'base', 'fontSize': '10px'}}%%
+sequenceDiagram
+	participant A as PC
+	participant B as CTCORE
+	participant C as PSCORE
+	A ->> B: 创建朋友圈
+	B ->> C: 创建朋友圈
+	C -->> C: 查询当前userid当天是否已经创建过？
+	C -->> B: 当天已创建，不能再次创建
+	B -->> A: 返回失败，当天已创建，不能再次创建
+	C -->> C: 当天未创建，则创建朋友圈任务
+	C -->> B: 返回成功
+	B -->> A: 返回成功
+```
 
 
