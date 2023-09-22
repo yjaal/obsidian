@@ -1,4 +1,4 @@
-## 1 . toList
+## 1. toList
 ```java
 public static <T> Collector<T, ?, List<T>> toList () {
     return new CollectorImpl<>(
@@ -10,7 +10,7 @@ public static <T> Collector<T, ?, List<T>> toList () {
 ```
 
 
-## 2 . toSet
+## 2. toSet
 ```java
 public static <T> Collector<T, ?, Set<T>> toSet () {
     return new CollectorImpl<>(
@@ -22,7 +22,7 @@ public static <T> Collector<T, ?, Set<T>> toSet () {
 ```
 
 
-## 3 . joining
+## 3. joining
 ```java
 public static Collector<CharSequence, ?, String> joining () {
     return new CollectorImpl<CharSequence, StringBuilder, String>(
@@ -128,7 +128,7 @@ students.stream().collect(Collectors.summingInt(s -> (int)s.getScore()))
 ```
 
 
-## 8 . averagingInt
+## 8. averagingInt
 ```java
 public static <T> Collector<T, ?, Double> averagingInt (ToIntFunction<? super T> mapper) {
     return new CollectorImpl<>(
@@ -141,7 +141,7 @@ public static <T> Collector<T, ?, Double> averagingInt (ToIntFunction<? super T>
 ```
 此方法与上面的方法类似 
 
-## 9 . reducing
+## 9. reducing
 ```java
 public static <T> Collector<T, ?, T> reducing (T identity, BinaryOperator<T> op) {
     return new CollectorImpl<>(
