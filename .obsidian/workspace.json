@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "530581f0a9b060c6",
+        "id": "f71b973f413cd755",
         "type": "tabs",
         "children": [
           {
-            "id": "f3c72cd66292f58f",
+            "id": "598be1acb9d4307c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/7. 原型，继承.md",
+                "file": "前端/js/10. Promise, async, await.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
+    "width": 233.5,
     "collapsed": true
   },
   "right": {
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/7. 原型，继承.md",
+                "file": "前端/js/10. Promise, async, await.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/7. 原型，继承.md",
+                "file": "前端/js/10. Promise, async, await.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/7. 原型，继承.md"
+                "file": "前端/js/10. Promise, async, await.md"
               }
             }
           },
@@ -147,7 +147,19 @@
             }
           },
           {
-            "id": "dbd3befad7ce8ba9",
+            "id": "542713d2c56fc0cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "fd62fd2277e52f11",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -155,11 +167,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,54 +185,54 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f3c72cd66292f58f",
+  "active": "598be1acb9d4307c",
   "lastOpenFiles": [
-    "前端/js/6. 对象属性配置.md",
+    "前端/js/9. 错误处理.md",
+    "前端/js/10. Promise, async, await.md",
+    "前端/js/8. 类.md",
+    "前端/js/img/006.png",
+    "前端/js/img/005.png",
+    "前端/js/img/004.png",
+    "前端/js/img/003.png",
+    "前端/js/img/截屏2024-01-16 15.53.34.png",
     "前端/js/7. 原型，继承.md",
-    "java/java基础/Java 常用基本方法.md",
-    "java/java基础/java函数式接口.md",
-    "java/java基础/收集器实现 Collectors.md",
-    "java/java基础/收集器.md",
+    "java/常用技巧/mybatis-插件.md",
+    "docker/myes.md",
+    "ES/1、快速入门.md",
+    "img/001.jpg.md",
+    "img",
+    "ES/img/1.png",
+    "ES/img",
     "未命名.canvas",
+    "其他/vscode.md",
+    "其他/vmware fusion.md",
+    "其他/other.md",
+    "其他/git常用命令.md",
+    "ES",
+    "java/常用技巧/spring-事件.md",
+    "MySQL/MySQL函数.md",
+    "Linux/less.md",
+    "java/java基础/CompletableFuture使用.md",
+    "java/java基础/Java正则表达式使用.md",
+    "java/java基础/java函数式接口.md",
+    "java/java基础/Java 常用基本方法.md",
+    "java/java基础/收集器实现 Collectors.md",
+    "前端/js/6. 对象属性配置.md",
+    "java/java基础/收集器.md",
     "前端/js/5. 函数进阶.md",
     "前端/js/img/002.png",
     "前端/js/002.png",
     "前端/js/4. 数据类型.md",
     "前端/js/3. 对象：基础知识.md",
     "Linux/curl.md",
-    "其他/git常用命令.md",
-    "java/JVM/摘录-教你九种 JVM GC 问题的排查方法.md",
     "java/JVM/img/33.png",
     "java/JVM/img/32.png",
     "java/JVM/img/32.png.crdownload",
-    "java/JVM/img/31.jpeg",
-    "java/JVM/img/30.png",
-    "java/JVM/img/29.png",
-    "java/JVM/img/28.png",
-    "java/JVM/img/27.png",
-    "java/JVM/img/26.png",
     "java/JVM/img",
-    "java/常见类定义/常量类.md",
     "java/JVM",
-    "java/spring-security/1.概述.md",
-    "java/mybatis/调试经验.md",
-    "java/mybatis/基本用法.md",
-    "前端/js/2. 代码质量.md",
-    "前端/js/1. 基础.md",
     "前端/js/img",
-    "java/定时任务配置.md",
-    "java/quartz/相关表功能.md",
-    "MySQL/MySQL函数.md",
     "java/mybatis",
-    "java/guava/集合.md",
-    "java/guava/基本工具.md",
     "前端/html+css/archive.tar.gz",
-    "前端/html+css/2.css基础.md",
-    "markdown用法/mermaid 画图.md",
-    "java/spring-security/3.认证流程分析.md",
-    "java/quartz",
-    "java/常见类定义",
-    "MySQL/img",
-    "java/okhttp"
+    "java/quartz"
   ]
 }

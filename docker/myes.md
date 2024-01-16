@@ -9,7 +9,7 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:8.7.1
 
 
 ## single-node表示单节点启动
-docker run -d --name myes -p 9200:9200 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:8.7.1
+docker run -d --name myes -p 9200:9200 -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms256m -Xmx256m" docker.elastic.co/elasticsearch/elasticsearch:8.7.1
 ```
 
 创建相关配置目录
@@ -67,18 +67,20 @@ docker run -d --name myes \
 -p 9200:9200 \
 -p 9300:9300 \
 -e "discovery.type=single-node" \
--v logs:/usr/share/elasticsearch/logs \
--v data:/usr/share/elasticsearch/data \
--v plugins:/usr/share/elasticsearch/plugins \
--v config:/usr/share/elasticsearch/config \
+-e ES_JAVA_OPTS="-Xms256m -Xmx256m" \
+-v /Users/YJ/study/docker-work/myes/logs:/usr/share/elasticsearch/logs \
+-v /Users/YJ/study/docker-work/myes/data:/usr/share/elasticsearch/data \
+-v /Users/YJ/study/docker-work/myes/plugins:/usr/share/elasticsearch/plugins \
+-v /Users/YJ/study/docker-work/myes/config:/usr/share/elasticsearch/config \
 docker.elastic.co/elasticsearch/elasticsearch:8.7.1
 ```
 
 连接测试
 
 ```
-https://localhost:9200/
+https://localhost:9200
 ```
+
 
 ```json
 {
@@ -104,12 +106,12 @@ https://localhost:9200/
 但是在 8 以上版本需要设置用户名密码。这里进入到容器中进行设置
 
 ```bash
-docker exec -it 53ce597962b4 /bin/bash
+docker exec -it myes /bin/bash
 # interactive表示交互式设置密码
 bin/elasticsearch-setup-passwords interactive
 ```
 
-当前已经为所有默认用户设置了密码，都是和对应的用户名一样。
+当前已经为所有默认用户设置了密码，都是和对应的用户名一样 (elastic/elatic)。
 
 
 ## Kibana
@@ -121,7 +123,12 @@ docker pull docker.elastic.co/kibana/kibana:8.7.1
 创建容器
 
 ```bash
+# 临时容器
 docker run -d --name mykibana -p 5601:5601 docker.elastic.co/kibana/kibana:8.7.1
+# 挂载配置
+docker run -d --name mykibana -p 5601:5601 \
+-v /Users/YJ/study/docker-work/mykibana/config:/usr/share/kibana/config \
+docker.elastic.co/kibana/kibana:8.7.1
 ```
 
 然后登陆
