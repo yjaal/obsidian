@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/10. Promise, async, await.md",
+                "file": "前端/js/12. 模块.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/10. Promise, async, await.md",
+                "file": "前端/js/12. 模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/10. Promise, async, await.md",
+                "file": "前端/js/12. 模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/10. Promise, async, await.md"
+                "file": "前端/js/12. 模块.md"
               }
             }
           },
@@ -187,8 +187,16 @@
   },
   "active": "598be1acb9d4307c",
   "lastOpenFiles": [
-    "前端/js/9. 错误处理.md",
+    "前端/js/11. Generator， 高级iteration.md",
+    "前端/js/12. 模块.md",
     "前端/js/10. Promise, async, await.md",
+    "其他/other.md",
+    "其他/vscode.md",
+    "MySQL/查看表结构.md",
+    "MySQL/MySQL函数.md",
+    "MySQL/JOIN的用法（二）.md",
+    "MySQL/数据库索引怎么工作.md",
+    "前端/js/9. 错误处理.md",
     "前端/js/8. 类.md",
     "前端/js/img/006.png",
     "前端/js/img/005.png",
@@ -204,13 +212,10 @@
     "ES/img/1.png",
     "ES/img",
     "未命名.canvas",
-    "其他/vscode.md",
     "其他/vmware fusion.md",
-    "其他/other.md",
     "其他/git常用命令.md",
     "ES",
     "java/常用技巧/spring-事件.md",
-    "MySQL/MySQL函数.md",
     "Linux/less.md",
     "java/java基础/CompletableFuture使用.md",
     "java/java基础/Java正则表达式使用.md",
@@ -218,13 +223,8 @@
     "java/java基础/Java 常用基本方法.md",
     "java/java基础/收集器实现 Collectors.md",
     "前端/js/6. 对象属性配置.md",
-    "java/java基础/收集器.md",
-    "前端/js/5. 函数进阶.md",
     "前端/js/img/002.png",
     "前端/js/002.png",
-    "前端/js/4. 数据类型.md",
-    "前端/js/3. 对象：基础知识.md",
-    "Linux/curl.md",
     "java/JVM/img/33.png",
     "java/JVM/img/32.png",
     "java/JVM/img/32.png.crdownload",
