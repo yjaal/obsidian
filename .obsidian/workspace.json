@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软考/系统架构专业知识/6. 17、18-数据库设计概述与模型&关系代数.md",
+                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软考/系统架构专业知识/6. 17、18-数据库设计概述与模型&关系代数.md",
+                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软考/系统架构专业知识/6. 17、18-数据库设计概述与模型&关系代数.md",
+                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软考/系统架构专业知识/6. 17、18-数据库设计概述与模型&关系代数.md"
+                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md"
               }
             }
           },
@@ -199,20 +199,23 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
+    "软考/img/022.jpeg",
+    "软考/img/021.jpeg",
+    "软考/系统架构专业知识/13-信息系统开发方法以及TPS和DSS的介绍.md",
+    "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
+    "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
+    "软考/系统架构专业知识/12.信息系统介绍及生命周期.md",
+    "软考/img/020.jpeg",
+    "软考/img/019.jpeg",
+    "markdown用法/markdown数学公式语法.md",
     "软考/img/018.jpeg",
     "软考/img/017.jpeg",
     "软考/img/016.jpeg",
     "软考/img/015.jpeg",
     "软考/img/014.jpeg",
-    "markdown用法/markdown数学公式语法.md",
-    "软考/系统架构专业知识/6. 17、18-数据库设计概述与模型&关系代数.md",
     "前端/js/13. 杂项.md",
     "软考/img/013.jpeg",
     "软考/img/012.jpeg",
-    "软考/img/011.jpeg",
-    "软考/img/010.jpeg",
-    "软考/img/009.jpeg",
-    "软考/img/008.jpeg",
     "软考/20240220直播基础45分考点.md",
     "软考/img",
     "软考/系统架构专业知识",
@@ -238,10 +241,7 @@
     "img",
     "ES/img",
     "未命名.canvas",
-    "其他/vmware fusion.md",
-    "其他/git常用命令.md",
     "ES",
-    "java/常用技巧/spring-事件.md",
     "java/JVM/img/32.png.crdownload",
     "java/JVM/img",
     "java/JVM",
