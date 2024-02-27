@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
+                "file": "软考/计算机基础/02-指令系统、存储系统和cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
+                "file": "软考/计算机基础/02-指令系统、存储系统和cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
+                "file": "软考/计算机基础/02-指令系统、存储系统和cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md"
+                "file": "软考/计算机基础/02-指令系统、存储系统和cache.md"
               }
             }
           },
@@ -199,52 +199,51 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "软考/img/022.jpeg",
-    "软考/img/021.jpeg",
-    "软考/系统架构专业知识/13-信息系统开发方法以及TPS和DSS的介绍.md",
-    "软考/系统架构专业知识/14. ES，OA，ERP和政府企业信息化.md",
-    "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
-    "软考/系统架构专业知识/12.信息系统介绍及生命周期.md",
-    "软考/img/020.jpeg",
-    "软考/img/019.jpeg",
+    "软考/计算机基础/01-计算机硬件介绍-CPU-校验码.md",
+    "软考/img/031.jpeg",
+    "软考/img/030.jpeg",
+    "软考/img/029.jpeg",
+    "软考/系统工程与信息系统基础/11-系统配置与性能评价.md",
+    "软考/img/028.jpeg",
     "markdown用法/markdown数学公式语法.md",
-    "软考/img/018.jpeg",
-    "软考/img/017.jpeg",
-    "软考/img/016.jpeg",
-    "软考/img/015.jpeg",
-    "软考/img/014.jpeg",
+    "软考/系统架构专业知识/21.2-数据库扩展技术.md",
+    "软考/系统架构专业知识/20.1-数据安全、备份与恢复.md",
+    "软考/系统架构专业知识/19.2-并发控制.md",
+    "软考/系统架构专业知识/19.1-模式分解-反规范化技术.md",
+    "软考/计算机基础/10-其他计算机知识.md",
+    "软考/计算机基础/09-嵌入式技术.md",
+    "软考/计算机基础/08-计算机网络-扩增知识点.md",
+    "软考/计算机基础/07-计算机网络-IP地址和子网.md",
+    "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md",
+    "软考/计算机基础/05-操作系统-存储和文件管理.md",
+    "软考/计算机基础/04-操作系统-概述及进程管理.md",
+    "软考/计算机基础/03-输入输出系统和总线结构.md",
+    "软考/计算机基础/02-指令系统、存储系统和cache.md",
+    "软考/系统架构专业知识/13-信息系统开发方法以及TPS和DSS的介绍.md",
+    "软考/系统架构专业知识/16-信息安全-技术体系-访问控制，常见攻击方式及安全评估.md",
+    "软考/系统工程与信息系统基础",
+    "软考/计算机基础",
+    "软考/img/027.jpeg",
+    "软考/img/026.jpeg",
+    "软考/系统架构专业知识/15-信息安全-技术体系-信息安全技术.md",
+    "软考/img/025.jpeg",
+    "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
+    "软考/系统架构专业知识/14-ES，OA，ERP和政府企业信息化.md",
+    "软考/系统架构专业知识/12-信息系统介绍及生命周期.md",
+    "软考/img/024.jpeg",
+    "软考/img/023.jpeg",
+    "软考/img/022.jpeg",
     "前端/js/13. 杂项.md",
-    "软考/img/013.jpeg",
-    "软考/img/012.jpeg",
     "软考/20240220直播基础45分考点.md",
     "软考/img",
     "软考/系统架构专业知识",
     "软考",
     "前端/js/12. 模块.md",
-    "java/Java 编译执行.md",
-    "java/常见类定义/常量类.md",
-    "其他/other.md",
-    "前端/js/11. Generator， 高级iteration.md",
-    "前端/js/10. Promise, async, await.md",
-    "其他/vscode.md",
-    "MySQL/查看表结构.md",
-    "MySQL/MySQL函数.md",
-    "MySQL/JOIN的用法（二）.md",
-    "MySQL/数据库索引怎么工作.md",
-    "前端/js/9. 错误处理.md",
-    "前端/js/8. 类.md",
-    "前端/js/7. 原型，继承.md",
-    "java/常用技巧/mybatis-插件.md",
-    "docker/myes.md",
-    "ES/1、快速入门.md",
-    "img/001.jpg.md",
     "img",
     "ES/img",
     "未命名.canvas",
     "ES",
     "java/JVM/img/32.png.crdownload",
-    "java/JVM/img",
-    "java/JVM",
-    "前端/js/img"
+    "java/JVM/img"
   ]
 }
