@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软考/计算机基础/05-操作系统-存储和文件管理.md",
+                "file": "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软考/计算机基础/05-操作系统-存储和文件管理.md",
+                "file": "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软考/计算机基础/05-操作系统-存储和文件管理.md",
+                "file": "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软考/计算机基础/05-操作系统-存储和文件管理.md"
+                "file": "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md"
               }
             }
           },
@@ -199,6 +199,14 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
+    "软考/img/083.png",
+    "软考/img/082.png",
+    "软考/计算机基础/05-操作系统-存储和文件管理.md",
+    "生活/常见药品.md",
+    "生活/img/002.jpg",
+    "生活/img/001.jpg",
+    "生活/img",
+    "生活",
     "软考/系统架构专业知识/22-软件工程-逆向工程和需求工程.md",
     "软考/img/081.jpeg",
     "软考/img/080.jpeg",
@@ -207,10 +215,6 @@
     "软考/img/077.jpeg",
     "软考/img/076.jpeg",
     "软考/img/075.jpeg",
-    "软考/img/074.jpeg",
-    "软考/img/073.jpeg",
-    "软考/img/072.jpeg",
-    "软考/计算机基础/05-操作系统-存储和文件管理.md",
     "软考/计算机基础/04-操作系统-概述及进程管理.md",
     "软考/计算机基础/03-输入输出系统和总线结构.md",
     "软考/计算机基础/02-指令系统、存储系统和cache.md",
@@ -235,15 +239,12 @@
     "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
     "软考/系统架构专业知识/14-ES，OA，ERP和政府企业信息化.md",
     "软考/系统架构专业知识/12-信息系统介绍及生命周期.md",
-    "前端/js/13. 杂项.md",
     "软考/img",
     "软考/系统架构专业知识",
     "软考",
     "img",
     "ES/img",
     "未命名.canvas",
-    "ES",
-    "java/JVM/img/32.png.crdownload",
-    "java/JVM/img"
+    "ES"
   ]
 }
