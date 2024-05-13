@@ -49,7 +49,7 @@ public static Collector<CharSequence, ?, String> joining (
 ```
 
 
-## 4 . mapping
+## 4. mapping
 ```java
 public static <T, U, A, R>
     Collector<T, ?, R> mapping (Function<? super T, ? extends U> mapper,
@@ -79,9 +79,9 @@ words.add ("your");
 words.add ("name");
 public static Stream<Character> characterStream (String s){  
     List<Character> result = new ArrayList<>();  
-    for (char c : s.toCharArray ()) 
+    for (char c : s.toCharArray()) 
         result.add (c);
-    return result.stream ();  
+    return result.stream();  
 }
 // [['y', 'o', 'u', 'r'], ['n', 'a', 'm', 'e']]
 List<List<String>> result = words.map(w -> characterStream (w)).collect (Collectors.toList ());;  
@@ -90,7 +90,7 @@ List<String> letters = words.flatMap(w -> characterStream(w)).collect (Collector
 ```
 
     
-## 5 . counting
+## 5. counting
 ```java
 public static <T> Collector<T, ?, Long> counting() {
     return reducing(0L, e -> 1L, Long::sum);

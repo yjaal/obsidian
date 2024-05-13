@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2064e1355432d15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "markdown用法/markdown数学公式语法.md",
+                "file": "前端/vue/深入组件/17.组件v-model.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md",
+                "file": "前端/vue/深入组件/17.组件v-model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md",
+                "file": "前端/vue/深入组件/17.组件v-model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md"
+                "file": "前端/vue/深入组件/17.组件v-model.md"
               }
             }
           },
@@ -199,51 +187,52 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
+    "前端/vue/深入组件/16.组件事件.md",
+    "前端/vue/深入组件/17.组件v-model.md",
+    "前端/vue/深入组件/15.props.md",
+    "前端/vue/深入组件/14.组件注册.md",
+    "前端/vue/基础/13.组件基础.md",
+    "java/guava/cache使用.md",
+    "前端/vue/img/3.png",
+    "前端/vue/img/2.png",
+    "前端/vue/基础/12.模板引用.md",
+    "前端/vue/基础/11.监听器.md",
+    "前端/vue/基础/10.生命周期.md",
+    "前端/vue/img/1.png",
+    "前端/vue/基础/9.表单输入绑定.md",
+    "前端/vue/基础/8.事件处理.md",
+    "前端/vue/基础/7.列表渲染.md",
+    "前端/vue/基础/6.条件渲染.md",
+    "前端/vue/基础/5.类与样式绑定.md",
+    "前端/vue/基础/4.计算属性.md",
+    "前端/vue/基础/3.响应式基础.md",
+    "前端/vue/基础/2.模板语法.md",
+    "前端/vue/基础/1.创建应用.md",
+    "前端/node && npm/vite+vue3+electron.md",
+    "前端/vue/img",
+    "前端/vue/深入组件",
+    "前端/vue/基础",
+    "其他/git常用命令.md",
+    "前端/node && npm/img/2.png",
+    "前端/node && npm/img/1.png",
+    "前端/node && npm/img",
+    "前端/node && npm/npm 与 node 升级.md",
+    "mindkats.com/shopify/加载速度分析.md",
+    "mindkats.com/shopify/img/2.png",
+    "mindkats.com/shopify/img/1.png",
+    "mindkats.com/shopify/img",
+    "其他/other.md",
+    "mindkats.com/shopify",
+    "mindkats.com",
+    "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md",
+    "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
     "软考/计算机基础/10-其他计算机知识.md",
-    "软考/计算机基础/09-嵌入式技术.md",
-    "软考/计算机基础/08-计算机网络-扩增知识点.md",
-    "软考/系统架构专业知识/20.1-数据安全、备份与恢复.md",
-    "markdown用法/markdown数学公式语法.md",
-    "软考/系统架构专业知识/19.2-并发控制.md",
     "软考/img/115.png",
     "软考/img/114.png",
     "软考/img/113.png",
-    "软考/img/112.png",
-    "软考/img/111.png",
-    "软考/img/110.png",
-    "软考/系统架构专业知识/19.1-模式分解&反规范化技术.md",
-    "软考/img/109.png",
-    "软考/img/108.png",
-    "软考/img/107.png",
-    "软考/img/106.png",
-    "软考/系统架构专业知识/17、18-数据库设计概述与模型&关系代数.md",
-    "软考/计算机基础/07-计算机网络-IP地址和子网.md",
-    "软考/计算机基础/06-计算机网络-OSI七层模型和协议介绍.md",
-    "软考/计算机基础/05-操作系统-存储和文件管理.md",
-    "生活/常见药品.md",
     "生活/img",
     "生活",
-    "软考/系统架构专业知识/22-软件工程-逆向工程和需求工程.md",
-    "软考/计算机基础/04-操作系统-概述及进程管理.md",
-    "软考/计算机基础/03-输入输出系统和总线结构.md",
-    "软考/计算机基础/02-指令系统、存储系统和cache.md",
-    "其他/兜宝保险.md",
-    "软考/计算机基础/01-计算机硬件介绍-CPU-校验码.md",
-    "软考/系统工程与信息系统基础/11-系统配置与性能评价.md",
-    "软考/系统架构专业知识/21.2-数据库扩展技术.md",
-    "软考/系统架构专业知识/13-信息系统开发方法以及TPS和DSS的介绍.md",
-    "软考/系统架构专业知识/16-信息安全-技术体系-访问控制，常见攻击方式及安全评估.md",
     "软考/系统工程与信息系统基础",
-    "软考/计算机基础",
-    "软考/系统架构专业知识/15-信息安全-技术体系-信息安全技术.md",
-    "软考/系统架构专业知识/14-ES，OA，ERP和政府企业信息化.md",
-    "软考/系统架构专业知识/12-信息系统介绍及生命周期.md",
-    "软考/img",
-    "软考/系统架构专业知识",
-    "软考",
-    "img",
-    "ES/img",
-    "未命名.canvas",
-    "ES"
+    "未命名.canvas"
   ]
 }

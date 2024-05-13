@@ -1,6 +1,8 @@
 
 切换为代理到美国服务器
 服务器地址 `t.91tianlu.pw` 替换成 `120.195.180.140`
+香港：`223.111.132.6` 有时候需要开全局模式
+新加坡：`g.91tianlu.pw`
 
 Api key:
 `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`
