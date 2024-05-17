@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/vue/7.路由/2.动态路由匹配.md",
+                "file": "前端/vue/7.路由/4.嵌套路由.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/vue/7.路由/2.动态路由匹配.md",
+                "file": "前端/vue/7.路由/4.嵌套路由.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/vue/7.路由/2.动态路由匹配.md",
+                "file": "前端/vue/7.路由/4.嵌套路由.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/vue/7.路由/2.动态路由匹配.md"
+                "file": "前端/vue/7.路由/4.嵌套路由.md"
               }
             }
           },
@@ -186,8 +187,10 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/vue/7.路由/1.入门.md",
+    "前端/vue/7.路由/3.路由的匹配语法.md",
+    "前端/vue/7.路由/4.嵌套路由.md",
     "前端/vue/7.路由/2.动态路由匹配.md",
+    "前端/vue/7.路由/1.入门.md",
     "前端/vue/5.应用规模化/35.服务端渲染.md",
     "前端/vue/5.应用规模化/34.测试.md",
     "前端/vue/5.应用规模化/33.状态管理.md",
@@ -218,8 +221,6 @@
     "前端/vue/2.深入组件/17.组件v-model.md",
     "前端/vue/2.深入组件/16.组件事件.md",
     "前端/vue/2.深入组件/15.props.md",
-    "前端/vue/2.深入组件/14.组件注册.md",
-    "前端/vue/1.基础/13.组件基础.md",
     "前端/vue/img/3.png",
     "前端/vue/img/2.png",
     "前端/vue/img/1.png",
