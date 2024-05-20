@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/vue/7.路由/4.嵌套路由.md",
+                "file": "前端/vue/7.路由/9.路由组件传参.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/vue/7.路由/4.嵌套路由.md",
+                "file": "前端/vue/7.路由/9.路由组件传参.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/vue/7.路由/4.嵌套路由.md",
+                "file": "前端/vue/7.路由/9.路由组件传参.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/vue/7.路由/4.嵌套路由.md"
+                "file": "前端/vue/7.路由/9.路由组件传参.md"
               }
             }
           },
@@ -187,8 +187,13 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/vue/7.路由/3.路由的匹配语法.md",
+    "前端/vue/7.路由/8.重定向和别名.md",
+    "前端/vue/7.路由/9.路由组件传参.md",
+    "前端/vue/7.路由/7.命名视图.md",
+    "前端/vue/7.路由/6.命名路由.md",
+    "前端/vue/7.路由/5.编程式导航.md",
     "前端/vue/7.路由/4.嵌套路由.md",
+    "前端/vue/7.路由/3.路由的匹配语法.md",
     "前端/vue/7.路由/2.动态路由匹配.md",
     "前端/vue/7.路由/1.入门.md",
     "前端/vue/5.应用规模化/35.服务端渲染.md",
@@ -215,12 +220,7 @@
     "前端/vue/4.内置组件",
     "前端/vue/3.逻辑复用",
     "前端/vue/2.深入组件/20.依赖注入.md",
-    "前端/vue/2.深入组件/19.插槽slot.md",
     "前端/vue/img/4.png",
-    "前端/vue/2.深入组件/18.透传Attribute.md",
-    "前端/vue/2.深入组件/17.组件v-model.md",
-    "前端/vue/2.深入组件/16.组件事件.md",
-    "前端/vue/2.深入组件/15.props.md",
     "前端/vue/img/3.png",
     "前端/vue/img/2.png",
     "前端/vue/img/1.png",
