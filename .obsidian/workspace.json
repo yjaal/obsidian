@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/vue/7.路由/16.进阶-过渡动效.md",
+                "file": "前端/js/3. 对象：基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/vue/7.路由/16.进阶-过渡动效.md",
+                "file": "前端/js/3. 对象：基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/vue/7.路由/16.进阶-过渡动效.md",
+                "file": "前端/js/3. 对象：基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/vue/7.路由/16.进阶-过渡动效.md"
+                "file": "前端/js/3. 对象：基础知识.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,8 +187,17 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/vue/7.路由/15.进阶-RouterView插槽.md",
+    "前端/js/2. 代码质量.md",
+    "前端/js/1. 基础.md",
+    "前端/html+css/2.css基础.md",
+    "前端/html+css/1.html基础.md",
+    "前端/vue/7.路由/21.进阶-动态路由.md",
+    "前端/vue/7.路由/20.进阶-导航故障.md",
+    "前端/vue/7.路由/19.进阶-扩展RouterLink.md",
+    "前端/vue/7.路由/18.进阶-路由懒加载.md",
+    "前端/vue/7.路由/17.进阶-滚动行为.md",
     "前端/vue/7.路由/16.进阶-过渡动效.md",
+    "前端/vue/7.路由/15.进阶-RouterView插槽.md",
     "前端/vue/7.路由/14.进阶-组合式API.md",
     "前端/vue/7.路由/13.进阶-数据获取.md",
     "前端/vue/7.路由/12.进阶-路由元信息.md",
@@ -204,17 +213,8 @@
     "前端/vue/7.路由/2.动态路由匹配.md",
     "前端/vue/7.路由/1.入门.md",
     "前端/vue/5.应用规模化/35.服务端渲染.md",
-    "前端/vue/5.应用规模化/34.测试.md",
-    "前端/vue/5.应用规模化/33.状态管理.md",
     "前端/vue/img/6.png",
-    "前端/vue/5.应用规模化/32.路由.md",
-    "前端/vue/5.应用规模化/31.工具链.md",
-    "前端/vue/5.应用规模化/30.单文件组成.md",
     "前端/vue/7.路由",
-    "前端/vue/4.内置组件/29.Suspense.md",
-    "前端/vue/4.内置组件/28.Teleport.md",
-    "前端/vue/4.内置组件/27.KeepAlive.md",
-    "前端/vue/4.内置组件/26.TransitionGroup.md",
     "前端/vue/img/5.png",
     "前端/vue/6.最佳实践",
     "前端/vue/5.应用规模化",
