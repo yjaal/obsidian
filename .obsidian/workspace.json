@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/5. 函数进阶.md",
+                "file": "前端/js/8. 类.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/5. 函数进阶.md",
+                "file": "前端/js/8. 类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/5. 函数进阶.md",
+                "file": "前端/js/8. 类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/5. 函数进阶.md"
+                "file": "前端/js/8. 类.md"
               }
             }
           },
@@ -186,6 +186,9 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
+    "前端/js/7. 原型，继承.md",
+    "前端/js/6. 对象属性配置.md",
+    "前端/js/5. 函数进阶.md",
     "前端/js/4. 数据类型.md",
     "前端/js/3. 对象：基础知识.md",
     "前端/js/2. 代码质量.md",
@@ -209,9 +212,6 @@
     "前端/vue/7.路由/7.命名视图.md",
     "前端/vue/7.路由/6.命名路由.md",
     "前端/vue/7.路由/5.编程式导航.md",
-    "前端/vue/7.路由/4.嵌套路由.md",
-    "前端/vue/7.路由/3.路由的匹配语法.md",
-    "前端/vue/7.路由/2.动态路由匹配.md",
     "前端/vue/img/6.png",
     "前端/vue/7.路由",
     "前端/vue/img/5.png",
