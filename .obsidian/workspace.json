@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md",
+                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md",
+                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md",
+                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md"
+                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md"
               }
             }
           },
@@ -186,8 +187,13 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/js/浏览器相关/2.事件简介/2.4 浏览器默认行为.md",
+    "前端/js/浏览器相关/3.UI事件/3.2 移动鼠标.md",
+    "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
+    "前端/js/img/024.png",
+    "前端/js/img/023.png",
+    "前端/js/浏览器相关/3.UI事件/3.1 鼠标事件.md",
     "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md",
+    "前端/js/浏览器相关/2.事件简介/2.4 浏览器默认行为.md",
     "前端/js/浏览器相关/2.事件简介/2.3 事件委托.md",
     "前端/js/img/022.png",
     "前端/js/浏览器相关/2.事件简介/2.2 冒泡和捕获.md",
@@ -202,8 +208,6 @@
     "前端/js/img/017.png",
     "前端/js/img/016.png",
     "前端/js/img/015.png",
-    "前端/js/img/014.png",
-    "前端/js/img/013.png",
     "前端/js/浏览器相关/1.Document/1.6 样式和类.md",
     "前端/js/浏览器相关/1.Document/1.5 修改文档.md",
     "前端/js/浏览器相关/1.Document/1.4 特性和属性.md",
@@ -227,9 +231,6 @@
     "前端/js/8. 类.md",
     "前端/js/7. 原型，继承.md",
     "前端/js/6. 对象属性配置.md",
-    "前端/js/5. 函数进阶.md",
-    "前端/js/3. 对象：基础知识.md",
-    "前端/js/2. 代码质量.md",
     "前端/vue/7.路由",
     "前端/vue/6.最佳实践",
     "未命名.canvas"
