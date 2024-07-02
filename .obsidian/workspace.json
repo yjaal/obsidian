@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md"
+                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md"
               }
             }
           },
@@ -187,8 +187,13 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/js/浏览器相关/3.UI事件/3.2 移动鼠标.md",
+    "前端/js/浏览器相关/3.UI事件/3.6 滚动.md",
+    "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
+    "前端/js/浏览器相关/3.UI事件/3.4 指针事件.md",
+    "前端/js/浏览器相关/3.UI事件/3.5 键盘：keydown 和 keyup.md",
     "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
+    "前端/js/img/025.png",
+    "前端/js/浏览器相关/3.UI事件/3.2 移动鼠标.md",
     "前端/js/img/024.png",
     "前端/js/img/023.png",
     "前端/js/浏览器相关/3.UI事件/3.1 鼠标事件.md",
@@ -207,7 +212,6 @@
     "前端/js/img/018.png",
     "前端/js/img/017.png",
     "前端/js/img/016.png",
-    "前端/js/img/015.png",
     "前端/js/浏览器相关/1.Document/1.6 样式和类.md",
     "前端/js/浏览器相关/1.Document/1.5 修改文档.md",
     "前端/js/浏览器相关/1.Document/1.4 特性和属性.md",
@@ -227,10 +231,6 @@
     "前端/js/12. 模块.md",
     "前端/js/11. Generator， 高级iteration.md",
     "前端/js/10. Promise, async, await.md",
-    "前端/js/9. 错误处理.md",
-    "前端/js/8. 类.md",
-    "前端/js/7. 原型，继承.md",
-    "前端/js/6. 对象属性配置.md",
     "前端/vue/7.路由",
     "前端/vue/6.最佳实践",
     "未命名.canvas"
