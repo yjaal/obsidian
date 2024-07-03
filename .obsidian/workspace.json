@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
+                "file": "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md"
+                "file": "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md"
               }
             }
           },
@@ -187,8 +186,12 @@
   },
   "active": "80f0fce0a25c4680",
   "lastOpenFiles": [
-    "前端/js/浏览器相关/3.UI事件/3.6 滚动.md",
+    "前端/js/浏览器相关/4.表单,控件/4.3 事件 change,input,cut,copy,paste.md",
+    "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md",
+    "前端/js/浏览器相关/4.表单,控件/4.2 聚焦：focus,blur.md",
     "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
+    "前端/js/img/026.png",
+    "前端/js/浏览器相关/3.UI事件/3.6 滚动.md",
     "前端/js/浏览器相关/3.UI事件/3.4 指针事件.md",
     "前端/js/浏览器相关/3.UI事件/3.5 键盘：keydown 和 keyup.md",
     "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
@@ -211,7 +214,6 @@
     "前端/js/img/019.png",
     "前端/js/img/018.png",
     "前端/js/img/017.png",
-    "前端/js/img/016.png",
     "前端/js/浏览器相关/1.Document/1.6 样式和类.md",
     "前端/js/浏览器相关/1.Document/1.5 修改文档.md",
     "前端/js/浏览器相关/1.Document/1.4 特性和属性.md",
@@ -228,9 +230,6 @@
     "前端/js/浏览器相关/2.事件简介",
     "前端/js/浏览器相关/1.Document",
     "前端/js/浏览器相关",
-    "前端/js/12. 模块.md",
-    "前端/js/11. Generator， 高级iteration.md",
-    "前端/js/10. Promise, async, await.md",
     "前端/vue/7.路由",
     "前端/vue/6.最佳实践",
     "未命名.canvas"
