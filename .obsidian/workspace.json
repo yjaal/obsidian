@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80f0fce0a25c4680",
+            "id": "1de1fc39e770b898",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/js/浏览器相关/6.杂项/6.3 事件循环：微任务和宏任务.md",
+                "file": "前端/arkTS/3、编程规范.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js/浏览器相关/6.杂项/6.3 事件循环：微任务和宏任务.md",
+                "file": "前端/arkTS/3、编程规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/浏览器相关/6.杂项/6.3 事件循环：微任务和宏任务.md",
+                "file": "前端/arkTS/3、编程规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/浏览器相关/6.杂项/6.3 事件循环：微任务和宏任务.md"
+                "file": "前端/arkTS/3、编程规范.md"
               }
             }
           },
@@ -185,44 +184,47 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c9e4ae15ba007074",
+  "active": "1de1fc39e770b898",
   "lastOpenFiles": [
+    "前端/arkTS/2、函数-类-接口-泛型-模块.md",
+    "前端/arkTS/3、编程规范.md",
+    "前端/arkTS/1、基本数据类型和运算符.md",
+    "其他/书单.md",
+    "前端/arkTS",
+    "其他/other.md",
+    "其他/mindkat.md",
+    "Linux/curl.md",
+    "前端/js/5. 函数进阶.md",
+    "java/guava/cache使用.md",
+    "前端/js/js-cookbook/5. Function.md",
+    "前端/js/js-cookbook/4. Arrays.md",
+    "前端/js/js-cookbook/3. Date.md",
+    "前端/js/js-cookbook/2. Numbers.md",
+    "前端/js/js-cookbook/1. Strings and Regular Expressions.md",
+    "java/时间工具.md",
+    "前端/vue/1.基础/4.计算属性.md",
+    "前端/vue/1.基础/9.表单输入绑定.md",
+    "其他/mac.md",
+    "docker/mypg.md",
+    "其他/IDEA.md",
+    "java/常用技巧/mapstruct引入.md",
+    "java/guava/基本工具.md",
+    "java/常用技巧/mybatis-OGNL扩展.md",
+    "前端/js/10. Promise, async, await.md",
+    "前端/js/8. 类.md",
+    "前端/js/6. 对象属性配置.md",
+    "前端/js/js-cookbook",
     "前端/js/其他",
     "前端/js/img/033.png",
     "前端/js/img/032.png",
-    "前端/js/浏览器相关/6.杂项/6.2 选择和范围.md",
-    "前端/js/浏览器相关/6.杂项/6.3 事件循环：微任务和宏任务.md",
     "前端/js/img/031.png",
     "前端/js/img/030.png",
     "前端/js/img/029.png",
     "前端/js/img/028.png",
     "前端/js/img/027.png",
-    "前端/js/浏览器相关/6.杂项/6.1 DOM变动观察器 Mutation observer.md",
-    "前端/js/浏览器相关/5.加载文档和其他资源/5.3 资源加载 onload onerror.md",
-    "前端/js/浏览器相关/5.加载文档和其他资源/5.2 脚本：async, defer.md",
-    "前端/js/浏览器相关/5.加载文档和其他资源/5.1 页面生命周期.md",
-    "前端/js/浏览器相关/4.表单,控件/4.4 表单 事件和方法提交.md",
-    "前端/js/浏览器相关/4.表单,控件/4.3 事件 change,input,cut,copy,paste.md",
-    "前端/js/浏览器相关/4.表单,控件/4.2 聚焦：focus,blur.md",
-    "前端/js/浏览器相关/4.表单,控件/4.1 表单属性和方法.md",
     "前端/js/img/026.png",
-    "前端/js/浏览器相关/3.UI事件/3.6 滚动.md",
-    "前端/js/浏览器相关/3.UI事件/3.4 指针事件.md",
-    "前端/js/浏览器相关/3.UI事件/3.5 键盘：keydown 和 keyup.md",
-    "前端/js/浏览器相关/3.UI事件/3.3 鼠标拖放事件.md",
     "前端/js/img/025.png",
-    "前端/js/浏览器相关/3.UI事件/3.2 移动鼠标.md",
     "前端/js/img/024.png",
-    "前端/js/浏览器相关/3.UI事件/3.1 鼠标事件.md",
-    "前端/js/浏览器相关/2.事件简介/2.5 创建自定义事件.md",
-    "前端/js/浏览器相关/2.事件简介/2.4 浏览器默认行为.md",
-    "前端/js/浏览器相关/2.事件简介/2.3 事件委托.md",
-    "前端/js/浏览器相关/2.事件简介/2.2 冒泡和捕获.md",
-    "前端/js/浏览器相关/2.事件简介/2.1 浏览器事件简介.md",
-    "前端/js/浏览器相关/1.Document/1.9 坐标.md",
-    "前端/js/浏览器相关/1.Document/1.8 window大小和滚动.md",
-    "前端/js/浏览器相关/1.Document/1.7 元素大小和滚动.md",
-    "前端/js/浏览器相关/1.Document/1.6 样式和类.md",
     "前端/js/其他内容",
     "前端/js/浏览器相关/6.杂项",
     "前端/js/浏览器相关/5.加载文档和其他资源",
@@ -230,9 +232,6 @@
     "前端/js/浏览器相关/3.UI事件",
     "前端/js/浏览器相关/2.事件简介",
     "前端/js/浏览器相关/1.Document",
-    "前端/js/浏览器相关",
-    "前端/vue/7.路由",
-    "前端/vue/6.最佳实践",
     "未命名.canvas"
   ]
 }

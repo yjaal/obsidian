@@ -392,7 +392,7 @@ public class CodeConfCacheGuavaImpl extends CodeConfCache{
 	@Autowired
 	private CodeConfDao codeConfDao;
 
-	private CodeConfCacheGuavaImpl(){
+	public CodeConfCacheGuavaImpl(){
 		CODE_CACHE = CacheBuilder.newBuilder()
 			.expireAfterWrite(60, TimeUnit.SECONDS)
 			.maximumSize(50)

@@ -42,9 +42,10 @@ host all all 0.0.0.0/0 trust
 记得重启，使用 `pg_ctl restart` 之后容器每次都只是关闭，无法启动。可以直接使用 `docker restrat xx`
 
 
-1、使用 psql 命令登录 PostgreSQL 控制台。
+1、使用 `psql` 命令登录 PostgreSQL 控制台。
 
 ```sh
+su - postgres
 psql
 ```
 
@@ -59,19 +60,21 @@ psql
 3、创建数据库用户 `dbuser `，并设置密码。
 
 ```
-CREATE USER dbuser WITH PASSWORD 'password';
+CREATE USER mypg WITH PASSWORD 'walp1314';
+// 删除一个用户 drop user mypg;
+// 切换用户 \c mypg;
 ```
 
-4、创建用户数据库，这里为 `exampledb`，并指定所有者为 `dbuser`。
+4、创建用户数据库，这里为 `kotlinstart`，并指定所有者为 `mypg`。
 
 ```
-CREATE DATABASE exampledb OWNER dbuser;
+CREATE DATABASE kotlinstart OWNER mypg;
 ```
 
-5、将 `exampledb` 数据库的所有权限都赋予 `dbuser`，否则 `dbuser` 只能登录控制台，没有任何数据库操作权限。
+5、将 `kotlinstart` 数据库的所有权限都赋予 `mypg`，否则 `mypg` 只能登录控制台，没有任何数据库操作权限。
 
 ```
-GRANT ALL PRIVILEGES ON DATABASE exampledb to dbuser;
+GRANT ALL PRIVILEGES ON DATABASE kotlinstart to mypg;
 ```
 
 
