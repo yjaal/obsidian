@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/创建列表.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/弹性布局.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "创建列表"
+              "title": "弹性布局"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/创建列表.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/弹性布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "创建列表 的反向链接列表"
+              "title": "弹性布局 的反向链接列表"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/创建列表.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/弹性布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "创建列表 的出链列表"
+              "title": "弹性布局 的出链列表"
             }
           },
           {
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/创建列表.md"
+                "file": "前端/arkTS/ArkUI/1、UI开发/弹性布局.md"
               },
               "icon": "lucide-list",
-              "title": "创建列表 的大纲"
+              "title": "弹性布局 的大纲"
             }
           },
           {
@@ -211,6 +211,11 @@
   },
   "active": "1de1fc39e770b898",
   "lastOpenFiles": [
+    "前端/arkTS/ArkUI/1、UI开发/线性布局.md",
+    "前端/arkTS/ArkUI/1、UI开发/1、布局概述.md",
+    "前端/arkTS/ArkUI/1、UI开发/创建列表.md",
+    "前端/arkTS/ArkUI/img/043.gif",
+    "前端/arkTS/ArkUI/img/042.png",
     "前端/arkTS/ArkUI/img/041.gif",
     "前端/arkTS/ArkUI/img/040.gif",
     "前端/arkTS/ArkUI/img/039.gif",
@@ -219,17 +224,11 @@
     "前端/arkTS/ArkUI/img/036.png",
     "前端/arkTS/ArkUI/img/035.png",
     "前端/arkTS/ArkUI/img/034.png",
-    "前端/arkTS/ArkUI/img/033.png",
-    "前端/arkTS/ArkUI/img/032.png",
-    "前端/arkTS/ArkUI/img/031.png",
-    "前端/arkTS/ArkUI/1、UI开发/1、布局概述.md",
-    "前端/arkTS/ArkUI/1、UI开发/创建列表.md",
     "前端/arkTS/ArkUI/1、UI开发/媒体查询.md",
     "前端/arkTS/ArkUI/1、UI开发/栅格布局.md",
     "前端/arkTS/ArkUI/1、UI开发/相对布局.md",
     "前端/arkTS/ArkUI/1、UI开发/弹性布局.md",
     "前端/arkTS/ArkUI/1、UI开发/层叠布局.md",
-    "前端/arkTS/ArkUI/1、UI开发/线性布局.md",
     "前端/arkTS/ArkUI/img",
     "前端/arkTS/3、编程规范.md",
     "前端/arkTS/ArkUI/2、窗口管理",
