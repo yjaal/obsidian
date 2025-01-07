@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由-不推荐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "菜单"
+              "title": "4.页面路由-不推荐"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由-不推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "菜单 的反向链接列表"
+              "title": "4.页面路由-不推荐 的反向链接列表"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由-不推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "菜单 的出链列表"
+              "title": "4.页面路由-不推荐 的出链列表"
             }
           },
           {
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md"
+                "file": "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由-不推荐.md"
               },
               "icon": "lucide-list",
-              "title": "菜单 的大纲"
+              "title": "4.页面路由-不推荐 的大纲"
             }
           },
           {
@@ -211,22 +211,29 @@
   },
   "active": "083a410dc11604f9",
   "lastOpenFiles": [
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/036.png",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/035.png",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/气泡提示.md",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/3.导航转场.md",
+    "前端/arkTS/ArkUI/1、UI开发/img/073.gif",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/2、组件导航Navigation.md",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由-不推荐.md",
+    "前端/arkTS/ArkUI/1、UI开发/img/072.png",
+    "前端/arkTS/ArkUI/1、UI开发/img/071.png",
+    "其他/vmware fusion.md",
+    "java/guava/cache使用.md",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/010.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/009.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/008.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/007.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/006.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/005.jpg",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img/004.png",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/1、概述.md",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/034.jpeg",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/033.gif",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/032.jpeg",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/031.gif",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/030.png",
+    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由",
+    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/气泡提示.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/2、添加气泡和菜单.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/视频播放.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/029.png",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/显示图片.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/028.png",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/027.png",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/026.png",
     "java/常用技巧/mapstruct引入.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/018.jpg.crdownload",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/1、添加常用组件.md",
@@ -249,14 +256,6 @@
     "前端/arkTS/ArkUI/img/051.png.crdownload",
     "前端/arkTS/ArkUI/img/050.png.crdownload",
     "前端/arkTS/ArkUI/img/046.png.crdownload",
-    "前端/arkTS/ArkUI/1、UI开发/1、开发布局/相对布局.md",
-    "前端/arkTS/1、基本数据类型和运算符.md",
-    "前端/arkTS/ArkUI/1、UI开发/1、开发布局/线性布局.md",
-    "前端/arkTS/ArkUI/1、UI开发/1、开发布局/弹性布局.md",
-    "前端/arkTS/ArkUI/1、UI开发/1、开发布局/媒体查询.md",
-    "前端/arkTS/ArkUI/1、UI开发/1、开发布局/栅格布局.md",
-    "前端/arkTS/ArkUI/1、UI开发/img",
-    "前端/arkTS/ArkUI/2、窗口管理",
     "未命名.canvas"
   ]
 }

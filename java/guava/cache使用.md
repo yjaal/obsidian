@@ -422,4 +422,4 @@ public class CodeConfCacheGuavaImpl extends CodeConfCache{
 }
 ```
 
-这里当缓存中没有我们要的数据时，就会执行 `load` 方法查找。注意：不能返回为 `null`，否则会报异常。如果确有这个需求，可以使用 `Optional`。
+这里当缓存中没有我们要的数据时，就会执行 `load` 方法查找。**注意：不能返回为 `null`，否则会报异常**。如果确有这个需求，可以使用 `Optional`。
