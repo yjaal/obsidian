@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatGPT/deepseek本地部署.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/4、使用文本/4、图标小符号.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deepseek本地部署"
+              "title": "4、图标小符号"
             }
           }
         ]
@@ -212,7 +212,9 @@
   "active": "083a410dc11604f9",
   "lastOpenFiles": [
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本/3、富文本.md",
+    "前端/arkTS/ArkUI/1、UI开发/4、使用文本/4、图标小符号.md",
     "chatGPT/deepseek本地部署.md",
+    "chatGPT/img/006.png",
     "前端/arkTS/ArkUI/1、UI开发/img/084.gif",
     "前端/arkTS/ArkUI/1、UI开发/img/083.gif",
     "前端/arkTS/ArkUI/1、UI开发/img/082.gif",
@@ -226,7 +228,6 @@
     "java/常用技巧/mapstruct引入.md",
     "前端/arkTS/ArkUI/1、UI开发/img/077.png",
     "前端/arkTS/ArkUI/1、UI开发/img/076.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/075.png",
     "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由.md",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本",
     "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/3.导航转场.md",
@@ -253,7 +254,6 @@
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/单选框.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/按钮.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件",
     "前端/arkTS/ArkUI/1、UI开发/1、开发布局",
     "前端/arkTS/ArkUI/img/057.png.crdownload",
