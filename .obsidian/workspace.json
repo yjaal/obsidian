@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/arkTS/ArkUI/1、UI开发/4、使用文本/4、图标小符号.md",
+                "file": "前端/arkTS/ArkUI/1、UI开发/4、使用文本/5、属性字符串-设置文本图片样式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4、图标小符号"
+              "title": "5、属性字符串-设置文本图片样式"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -211,31 +212,33 @@
   },
   "active": "083a410dc11604f9",
   "lastOpenFiles": [
+    "前端/arkTS/ArkUI/1、UI开发/img/094.png",
+    "前端/arkTS/ArkUI/1、UI开发/img/093.png",
+    "前端/arkTS/ArkUI/1、UI开发/img/092.png",
+    "前端/arkTS/ArkUI/1、UI开发/img/091.png",
+    "前端/arkTS/ArkUI/1、UI开发/img/090.png",
+    "前端/arkTS/ArkUI/1、UI开发/4、使用文本/4、图标小符号.md",
+    "前端/arkTS/ArkUI/1、UI开发/4、使用文本/5、属性字符串-设置文本图片样式.md",
+    "前端/arkTS/ArkUI/1、UI开发/img/089.gif",
+    "前端/arkTS/ArkUI/1、UI开发/img/088.gif",
+    "前端/arkTS/ArkUI/1、UI开发/img/087.gif",
+    "前端/arkTS/ArkUI/1、UI开发/img/086.png",
+    "其他/other.md",
+    "其他/mac.md",
     "前端/arkTS/ArkUI/1、UI开发/img/085.png",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本/3、富文本.md",
-    "前端/arkTS/ArkUI/1、UI开发/4、使用文本/4、图标小符号.md",
     "chatGPT/deepseek本地部署.md",
     "chatGPT/img/006.png",
-    "前端/arkTS/ArkUI/1、UI开发/img/084.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/083.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/082.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/081.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/080.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/079.gif",
-    "前端/arkTS/ArkUI/1、UI开发/img/078.gif",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本/2、文本输入(TextInput,TextArea).md",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本/1、文本显示(Text,Span).md",
     "java/常用技巧/spring-InitializingBean.md",
     "java/常用技巧/mapstruct引入.md",
-    "前端/arkTS/ArkUI/1、UI开发/img/077.png",
-    "前端/arkTS/ArkUI/1、UI开发/img/076.gif",
     "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/4.页面路由.md",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本",
     "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/3.导航转场.md",
     "其他/z-library.md",
     "前端/arkTS/ArkUI/1、UI开发/img/社会性动物（第12版）.epub",
     "前端/arkTS/ArkUI/1、UI开发/img/未确认 165271.crdownload",
-    "其他/other.md",
     "其他/书单.md",
     "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/2、组件导航Navigation.md",
     "其他/vmware fusion.md",
@@ -251,8 +254,6 @@
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img/018.jpg.crdownload",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/1、添加常用组件.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/进度条.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/切换按钮.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/单选框.md",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件/img",
     "前端/arkTS/ArkUI/1、UI开发/2、添加组件",
     "前端/arkTS/ArkUI/1、UI开发/1、开发布局",
