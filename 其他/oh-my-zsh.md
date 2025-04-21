@@ -1,180 +1,10 @@
 
 ```sh
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
 export ZSH=$HOME/ohmyzsh
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-"~/.zshrc" 147L, 4736B
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-"~/.zshrc" 147L, 4740B
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-
-###### my settings ########
 
 # jdk
 JAVA_HOME=/Users/YJ/soft/jdk8/Contents/Home
@@ -203,11 +33,11 @@ alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/co
 
 # golang
 # 参考：https://studygolang.com/articles/11081
-export GOPATH=/usr/local/Cellar/go/1.16.3
+export GOPATH=/usr/local/Cellar/go/1.24.2
 export PATH=$PATH:$GOPATH/bin
-export GOBIN=/usr/local/Cellar/go/1.16.3/bin
+export GOBIN=/usr/local/Cellar/go/1.24.2/bin
 export PATH=$PATH:$GOBIN
-export GOROOT=/usr/local/Cellar/go/1.16.3/libexec
+export GOROOT=/usr/local/Cellar/go/1.24.2/libexec
 export PATH=$PATH:$GOROOT/bin
 export GO111MODULE=on
 
@@ -223,3 +53,102 @@ alias python=/usr/bin/python3
 export ZK_HOME=/Users/YJ/soft/zk-3.7.0
 export PATH=$PATH:$ZK_HOME/bin
 ```
+
+
+美化 vim
+
+相关代码放在
+
+```
+/Users/YJ/.vim/bundle
+```
+
+编辑
+
+```
+～/.vimrc
+```
+
+```
+set nocompatible
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+" code complete
+Plugin 'davidhalter/jedi-vim'
+Plugin 'ervandew/supertab'
+
+" syntastic check
+Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/syntastic'
+
+" colorscheme
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'luochen1990/rainbow' , {'for': 'python'}
+Plugin 'morhetz/gruvbox'
+
+" code format
+Plugin 'mindriot101/vim-yapf'
+
+" file search
+Plugin 'ctrlpvim/ctrlp.vim'
+
+call vundle#end()
+filetype plugin indent on
+
+colorscheme gruvbox
+
+" for code complete
+let g:jedi#auto_initialization = 1
+let g:jedi#completions_enabled = 0
+let g:jedi#show_call_signatures = 1
+
+
+" for <leader>
+let mapleader = ","
+let g:mapleader = ","
+
+" goto definition
+let g:jedi#goto_definitions_command = ""
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_command = "<leader>d"
+
+" file search
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+" serach file in MRU
+nmap <Leader>f :CtrlPMRUFiles<CR>
+" search file in BUffer
+nmap <Leader>b :CtrlPBuffer<CR>
+
+
+set number
+set cursorline
+set fileencoding=utf-8
+set fencs=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set history=500
+let python_highlight_all=1
+set background=dark
+set t_Co=256
+set laststatus=2
+set viminfo+=!
+set showmatch
+set matchtime=5
+set ignorecase
+set hlsearch
+set autoindent
+set cindent
+set tabstop=4
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set autochdir
+set autoread
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+autocmd! FileType python match OverLength /\%89v.\+/
+```
+
+然后打开 vim，在 normal 模式下输入
+

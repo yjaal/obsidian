@@ -137,3 +137,10 @@ fn+上方向键是page up
 
 fn+下方向键是page down
 ```
+
+
+## Github ip
+
+参考： https://github.com/521xueweihan/GitHub520?tab=readme-ov-file
+
+

@@ -26,4 +26,4 @@
 | `ctrl+w` | 扩展选择，比如选中单词|
 
 
-注册邮箱密码 `ximenziLELE123`
+注册邮箱账号 jsjgyr 密码 `ximenziLELE123`
