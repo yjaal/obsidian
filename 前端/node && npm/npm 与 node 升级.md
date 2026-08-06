@@ -33,3 +33,16 @@ npm install -g npm@latest
 
 
 参考：`https://www.freecodecamp.org/chinese/news/how-to-update-node-and-npm-to-the-latest-version/`
+
+
+
+使用 nvm 管理版本
+
+```
+# 查看所有版本以及当前使用的版本
+nvm list
+
+# 切换版本
+nvm use 版本号
+
+```

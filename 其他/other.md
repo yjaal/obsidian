@@ -18,6 +18,15 @@ export https_proxy="http://127.0.0.1:1087"
 这里配置可以在小飞机的设置->HTTP 中查看。
 
 
+### Anna's Archive
+
+```
+Account ID: 7vqNQ9K
+
+Public profile: #7vqNQ9K
+
+secret  7vqNQ9KRifbtJmCtVTdtiAqQBgKNF
+```
 
 
 
