@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型/milvus/基本安装使用.md",
+                "file": "其他/other.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基本安装使用"
+              "title": "other"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -70,8 +72,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -157,16 +159,6 @@
             }
           },
           {
-            "id": "a9fae5095a6897db",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "542713d2c56fc0cc",
             "type": "leaf",
             "state": {
@@ -181,7 +173,7 @@
             }
           },
           {
-            "id": "fd62fd2277e52f11",
+            "id": "8ab056fb481d40ca",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -191,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -200,19 +192,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "083a410dc11604f9",
   "lastOpenFiles": [
-    "docker/mysql.md",
+    "其他/mac.md",
+    "python/工具/相关工具.md",
+    "python/工具/python版本处理.md",
+    "其他/other.md",
+    "前端/piAgent/准备工作.md",
+    "前端/node && npm/npm 与 node 升级.md",
+    "前端/piAgent",
+    "前端/node && npm/安装配置.md",
+    "其他/git提交规范.md",
+    "其他/git常用命令.md",
+    "其他/ssh-keygen.md",
     "大模型/milvus/基本安装使用.md",
+    "docker/mysql.md",
     "大模型/coze/内部密码.md",
     "大模型/milvus",
     "大模型/langchain学习/1. 入门.md",
@@ -222,27 +228,17 @@
     "其他/oh-my-zsh.md",
     "docker/docker run.md",
     "其他/vscode.md",
-    "python/工具/相关工具.md",
-    "python/工具/python版本处理.md",
     "docker/1、colima.md",
-    "其他/other.md",
-    "其他/mac.md",
     "大模型/langchain学习",
     "其他/IDEA.md",
     "其他/z-library.md",
     "其他/obsidian 使用.md",
     "其他/mindkat.md",
     "其他/maven.md",
-    "java/常用技巧/mapstruct引入.md",
     "大模型/coze",
     "大模型",
-    "前端/鸿蒙开发相关/ohpm.md",
     "前端/鸿蒙开发相关",
-    "前端/arkTS/ArkUI/1、UI开发/4、使用文本/5、属性字符串-设置文本图片样式.md",
     "python/工具",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/菜单.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/按钮.md",
-    "前端/arkTS/ArkUI/1、UI开发/2、添加组件/1、添加常用组件.md",
     "前端/arkTS/ArkUI/1、UI开发/img/001.png",
     "前端/arkTS/ArkUI/1、UI开发/img/094.png",
     "前端/arkTS/ArkUI/1、UI开发/img/093.png",
@@ -256,7 +252,6 @@
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本",
     "前端/arkTS/ArkUI/1、UI开发/img/社会性动物（第12版）.epub",
     "前端/arkTS/ArkUI/1、UI开发/img/未确认 165271.crdownload",
-    "前端/arkTS/ArkUI/1、UI开发/3、设置组件导航和页面路由/img",
     "未命名.canvas"
   ]
 }

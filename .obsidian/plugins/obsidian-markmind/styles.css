@@ -7,6 +7,7 @@
     box-shadow: 0 0 10px #ccc
 }
 
+
 .theme-dark .cm-icon-menus[data-v-359bda15] {
     background: #333;
     box-shadow: 0 0 10px #222
@@ -300,7 +301,8 @@
     display: block;
     border: 1px solid #ccc;
     border-radius: 3px;
-    height: 28px
+    height: 28px;
+    box-shadow: none
 }
 
 .theme-dark .cm-form-row select {
@@ -371,6 +373,10 @@
 
 .theme-dark .cm-structure-delete {
     border: 1px solid #000
+}
+
+.theme-dark .cm-structure-delete svg {
+    fill: #adabab;
 }
 
 .cm-structure-item {
@@ -663,7 +669,7 @@ span.mm-sline .line {
     outline: 0
 }
 
-.theme-dark textarea {
+.theme-dark .mm-note textarea {
     color: #666
 }
 
@@ -1005,7 +1011,8 @@ th {
     box-shadow: 0 0 10px #222
 }
 
-.cm-float-settings {
+.cm-float-settings,
+.mm-list-icon-bar {
     background: #fff;
     width: 40px;
     height: 40px;
@@ -1020,12 +1027,15 @@ th {
     box-shadow: 0 0 10px #ccc
 }
 
-.theme-dark .cm-float-settings {
+
+.theme-dark .cm-float-settings,
+.theme-dark .mm-list-icon-bar {
     background: #333;
     box-shadow: 0 0 10px #222
 }
 
-.theme-dark .cm-float-settings svg {
+.theme-dark .cm-float-settings svg,
+.theme-dark .mm-list-icon-bar svg {
     fill: #ccc
 }
 
@@ -1045,7 +1055,8 @@ th {
     max-width: 100%
 }
 
-.cm-node-text {
+.cm-node-text,
+.mm-node-edit {
     max-width: 450px;
     border-radius: 3px;
     outline: 0;
@@ -1055,10 +1066,28 @@ th {
     word-wrap: break-word
 }
 
-.mm-node .mm-node-edit {
-    max-width: 450px;
+.mm-node-edit code,
+.cm-node-text code {
+    word-break: break-all;
+    white-space: break-spaces;
 }
 
+.cm-node-text .contains-task-list li.task-list-item,
+.mm-node-edit .contains-task-list li.task-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.cm-node-text .contains-task-list li.task-list-item>.task-list-item-checkbox,
+.mm-node-edit .contains-task-list li.task-list-item>.task-list-item-checkbox {
+    margin-inline-start: calc(var(--checkbox-size) * -1.2)
+}
+
+/* .cm-node-text mjx-math,
+.mm-node-edit mjx-math {
+    max-width: 100%;
+    overflow: auto;
+} */
 
 .cm-edit-node .cm-node-text {
     padding-right: 2px
@@ -1210,15 +1239,20 @@ th {
     overflow: visible
 }
 
+.cm-node-floatmenus {
+    position: fixed;
+    width: 320px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid #666
+}
 
-/* @font-face{
-  font-family: 'myFont'; 
-  src:url('http://cdn.ghost-jack.top/chinese.ttf');
-} */
-
-
-.mm-handdraw-theme {
-    font-family: 'myFont';
+.theme-dark .cm-node-floatmenus {
+    background: #333;
+    color: #a3a3a3;
+    box-shadow: 0 0 10px #222;
+    border: 1px solid #000
 }
 
 .mm-app-container {
@@ -1228,7 +1262,7 @@ th {
     right: 0;
     bottom: 0;
     display: flex;
-    font-family: Helvetica, Tahoma, Arial, "PingFang SC", STXihei, "Microsoft yahei", "WenQuanYi Micro Hei", sans-serif;
+    /* font-family: Helvetica, Tahoma, Arial, "PingFang SC", STXihei, "Microsoft yahei", "WenQuanYi Micro Hei", sans-serif; */
 }
 
 .mm-mindmap-container {
@@ -1274,7 +1308,7 @@ th {
     font-size: 16px;
     width: 8000px;
     height: 8000px;
-    transition: all 0.15s linear;
+    transition: all 0.05s linear;
 
 }
 
@@ -1356,6 +1390,29 @@ th {
     min-width: 300px
 }
 
+
+.cm-node-text>p,
+.cm-node-text>h1,
+.cm-node-text>h2,
+.cm-node-text>h3,
+.cm-node-text>h4,
+.cm-node-text>h5,
+.cm-node-text>h6,
+.cm-node-text>ol,
+.cm-node-text>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cm-node-text>ol,
+.cm-node-text>ul {
+    padding-left: 20px;
+}
+
+.cm-node-text audio {
+    min-width: 300px
+}
+
 /* 笔记渲染表格 */
 
 
@@ -1387,6 +1444,25 @@ th {
 .mm-node .mm-node-content table img,
 .mm-node-note-container table img {
     background-color: transparent;
+}
+
+.theme-dark .mm-node .mm-node-content table tr,
+.theme-dark .mm-node-note-container table tr {
+    background-color: #222;
+    border-top: 1px solid hsl(210deg 16.85% 50.93%);
+}
+
+.theme-dark .mm-node .mm-node-content table tr:nth-child(2n),
+.theme-dark .mm-node-note-container table tr:nth-child(2n) {
+    background-color: #222;
+    border-top: 1px solid hsl(210deg 16.85% 50.93%);
+}
+
+.theme-dark .mm-node .mm-node-content table th,
+.theme-dark .mm-node .mm-node-content table td,
+.theme-dark .mm-node-note-container table th,
+.theme-dark .mm-node-note-container table td {
+    border: 1px solid #3f3f3f;
 }
 
 /* .mm-node .mm-node-content img[align=right] {
@@ -1446,7 +1522,19 @@ th {
     margin-top: -5px;
 }
 
+.mm-node-right.mm-mindmap7-node>.mm-node-bar {
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
 .mm-node-right.mm-mindmap1-node>.mm-node-bar {
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.mm-node-right.mm-htime-node>.mm-node-bar {
     right: -20px;
     top: 50%;
     margin-top: -5px;
@@ -1480,11 +1568,29 @@ th {
     top: -15px;
 }
 
+.mm-node-up.mm-htime-node>.mm-node-bar {
+    left: 50%;
+    margin-left: -5px;
+    top: -15px;
+}
+
 .mm-node-left>.mm-node-bar {
     left: -10px;
 }
 
+.mm-node-left.mm-htime-node>.mm-node-bar {
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
 .mm-node-left.mm-mindmap2-node>.mm-node-bar {
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.mm-node-left.mm-mindmap7-node>.mm-node-bar {
     left: -20px;
     top: 50%;
     margin-top: -5px;
@@ -1497,16 +1603,37 @@ th {
 }
 
 .mm-node-right.mm-fish-node>.mm-node-bar {
-    bottom: -6px !important;
+    /* bottom: -6px !important;
     right: -12px !important;
-    top: auto;
+    top: auto; */
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
 }
 
 .mm-node-left.mm-fish-node>.mm-node-bar {
-    bottom: -6px !important;
-    left: -12px !important;
-    top: auto;
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
 }
+
+.mm-node.mm-node-left.mm-fish-top>.mm-node-bar {
+    display: block;
+    left: 50%;
+    margin-left: -2px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.mm-node.mm-node-left.mm-fish-bottom>.mm-node-bar {
+    display: block;
+    left: 50%;
+    margin-left: 0px;
+    top: -15px;
+}
+
+
+
 
 .mm-node-collapse>.mm-node-bar {
     display: block !important;
@@ -1521,6 +1648,26 @@ th {
 .mm-node-induce>.mm-node-bar {
     display: none !important;
 }
+
+
+.mm-node.mm-node-right.mm-fish-top>.mm-node-bar {
+    display: block !important;
+    left: 50%;
+    margin-left: -7px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.mm-node.mm-node-right.mm-fish-bottom>.mm-node-bar {
+    display: block !important;
+    left: 50%;
+    margin-left: -10px;
+    top: -15px;
+}
+
+
+
+
 
 .mm-node.mm-node-induce .mm-node-content {
     background-color: var(--background-primary);
@@ -1740,6 +1887,8 @@ th {
     padding-top: 4px;
 }
 
+
+
 /* .mm-edit-node .mm-node-assist .mm-node-annotate{
     float: none;
     display: none;
@@ -1788,6 +1937,15 @@ th {
 .mm-link-board .mm-file-ext {
     font-size: 0.6em;
     padding-right: 6px;
+}
+
+.mm-link-board .mm-file-path {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.8em;
+    margin-bottom: 2px;
 }
 
 .mm-block-ext {
@@ -2124,7 +2282,7 @@ th {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 1px solid #444343;
+    border: 1px solid #7f7e7e;
     left: -3px;
     top: -3px;
 }
@@ -2304,7 +2462,13 @@ th {
 .li-node .node-assist {
     height: 30px;
     box-sizing: border-box;
-    padding-top: 8px;
+    padding-top: 4px;
+}
+
+.li-node .node-assist .mm-icon-item {
+    margin-right: 6px;
+    vertical-align: initial;
+    cursor: pointer;
 }
 
 .linkSetup {
@@ -2355,7 +2519,7 @@ th {
 }
 
 .mm-list li.node-showNode>.node-control .text {
-    border-bottom: 2px solid #989898;
+    /* border-bottom: 2px solid #989898; */
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 3px;
@@ -2386,7 +2550,8 @@ th {
 }
 
 .text ol li {
-    list-style-type: disc;
+    list-style-type: decimal;
+    margin-left: 16px;
 }
 
 .text>p,
@@ -2485,9 +2650,10 @@ th {
     box-shadow: 0 0 0 #fff;
 }
 
-.mm-mobile-app .mm-node .mm-node-content {
+/* .mm-mobile-app .mm-node .mm-node-edit,
+.mm-mobile-app .mm-node .cm-node-text {
     max-width: 400px;
-}
+} */
 
 .mm-note {
     position: absolute;
@@ -3210,6 +3376,41 @@ th {
     cursor: pointer;
 }
 
+.mm-embed-link {
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    background-color: #333;
+    border: 1px solid #000;
+    border-radius: 3px;
+    z-index: 1000;
+    cursor: pointer;
+    color: #666;
+
+}
+
+.mm-embed-link div {
+    width: 90px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm-embed-link div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.mm-embed-link div span svg {
+    fill: #666;
+}
+
 /* .mm-link-menu:before {
     width: 0;
     height: 0;
@@ -3233,6 +3434,10 @@ th {
 
 .theme-light .mm-link-menu svg {
     fill: #333;
+}
+
+.mm-node:hover .mm-node-cover {
+    display: none;
 }
 
 /* 遮挡文字节点 */
@@ -3481,4 +3686,160 @@ span.mm-sline .line {
 .mm-node-text-input,
 .mm-node-stroke-input {
     border: 0 !important;
+}
+
+
+.mm-node-image-embed {
+    position: relative;
+    display: inline-block;
+}
+
+.mm-node-image-control {
+    position: absolute;
+    right: -14px;
+    top: -2px;
+}
+
+
+.cm-mindmap-ppt {
+    padding: 0 12px;
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+    background: hsla(0, 0%, 100%, .8);
+    border-radius: 5px;
+    opacity: .8;
+    height: 40px;
+    font-size: 12px;
+    user-select: none;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.theme-dark .cm-mindmap-ppt {
+    background: hsl(0deg 0% 25.2% / 80%);
+    box-shadow: 0 0 10px #222
+}
+
+.cm-mindmap-ppt span {
+    vertical-align: middle;
+    display: inline-flex;
+    min-width: 30px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cm-mindmap-ppt span svg {
+    width: 20px;
+    height: 20px;
+}
+
+.cm-mindmap-ppt span.cm-ppt-exit svg {
+    width: 16px;
+    height: 16px;
+}
+
+.cm-mindmap-ppt span.cm-ppt-clear svg {
+    width: 16px;
+    height: 16px;
+}
+
+
+.mm-ppt-page {
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238 186 69 / 20%);
+}
+
+.mm-ppt-page .mm-ppt-del {
+    position: absolute;
+    right: 0px;
+    display: block;
+
+    top: 0px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mm-ppt-page .mm-ppt-num {
+    background-color: #202020;
+    color: white;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm-ppt-page .mm-ppt-resize {
+    position: absolute;
+    right: 6px;
+    display: block;
+
+    bottom: 0px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mm-node-embed {
+    display: none !important;
+}
+
+
+.cm-mindmap-mobile {
+    position: fixed;
+    z-index: 1000;
+    height: 32px;
+    left: 10px;
+    bottom: 100px;
+    right: 10px;
+}
+
+.cm-mindmap-mobile div {
+    width: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #333;
+    box-sizing: 0 0 10px #222;
+    float: right;
+}
+
+.cm-mindmap-mobile div svg {
+    fill: #666;
+}
+
+
+.theme-light .cm-mindmap-mobile div {
+    background-color: #fff;
+    box-sizing: 0 0 10px #ccc;
+}
+
+.theme-light .cm-mindmap-mobile div svg {
+    fill: #333;
+}
+
+
+.mm-node-size .mm-node-edit {
+    max-width: none !important;
+}
+
+.mm-node-size .mm-node-icon {
+    display: flex;
+}
+
+.mm-assist-close {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
