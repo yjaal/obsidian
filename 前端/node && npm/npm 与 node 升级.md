@@ -1,37 +1,25 @@
 
-安装 n 包
+1、先安装 nvm
+直接下载安装包安装，最好使用默认目录，不然会比较麻烦。不要下载 1.2.x 版本（有 bug）
 
-```sh
-npm install -g n
+
+2、添加镜像源
+```
+安装目录中找到settings.txt
+添加
+
+node_mirror: https://nodejs.org/dist/
+npm_mirror: https://npm.taobao.com/mirrors/npm/
 ```
 
-`n` 包是一个 npm 的包，可以用于 `node.js` 版本管理。
+3、安装 node
 
-安装新版本的 node
-
-```sh
-n lts
-// 或者
-n latest
 ```
-
-上面两个命令安装长期支持和最新版本的 `Node.js`。
-
-删除以前安装的版本
-
-```sh
-n prune
-```
-
-此命令会删除以前安装的版本的缓存版本，只保留最新安装的版本。
-
-更新 npm
-
-```sh
-npm install -g npm@latest
+nvm install lts --verbose
 ```
 
 
+<<<<<<< HEAD
 参考：`https://www.freecodecamp.org/chinese/news/how-to-update-node-and-npm-to-the-latest-version/`
 
 
@@ -45,4 +33,32 @@ nvm list
 # 切换版本
 nvm use 版本号
 
+=======
+4、添加 npm 镜像源
+
+```
+npm config set registry https://registry.npmmirror.com
+```
+
+
+
+注意：
+
+清楚缓存
+```
+nvm cache clear
+```
+
+
+
+5、设置 npm 镜像源
+
+```
+npm config set registry https://registry.npmmirror.com
+```
+
+检查生效
+```
+npm config get registry
+>>>>>>> 89566ac02eeb952a879d4c9f619b1b76adbfa61e
 ```

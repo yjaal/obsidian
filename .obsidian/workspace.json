@@ -215,6 +215,9 @@
   },
   "active": "c9e4ae15ba007074",
   "lastOpenFiles": [
+    "前端/piAgent/准备工作.md",
+    "前端/piAgent",
+    "其他/ssh-keygen.md",
     "大模型/langchain学习/1. 入门.md",
     "python/工具/python版本处理.md",
     "前端/html+css/1.html基础.md",
@@ -240,8 +243,6 @@
     "python/pyqt_study/1. PyQt相关基本介绍.md",
     "python/工具/python版本记录.md",
     "其他/other.md",
-    "其他/mac.md",
-    "大模型/langchain学习/2. LangGraph 入门.md",
     "大模型/langchain学习/img/001.png",
     "大模型/langchain学习/img",
     "大模型/milvus",
@@ -260,7 +261,6 @@
     "前端/arkTS/ArkUI/1、UI开发/img/088.gif",
     "前端/arkTS/ArkUI/1、UI开发/img/087.gif",
     "前端/arkTS/ArkUI/1、UI开发/4、使用文本",
-    "前端/arkTS/ArkUI/1、UI开发/img/社会性动物（第12版）.epub",
     "未命名.canvas"
   ]
 }

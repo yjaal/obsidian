@@ -7,5 +7,6 @@
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSizeAction": false,
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": []
 }
