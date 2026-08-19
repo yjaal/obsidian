@@ -19,7 +19,6 @@ nvm install lts --verbose
 ```
 
 
-<<<<<<< HEAD
 参考：`https://www.freecodecamp.org/chinese/news/how-to-update-node-and-npm-to-the-latest-version/`
 
 
@@ -36,7 +35,6 @@ nvm use 版本号
 =======
 4、添加 npm 镜像源
 
-```
 npm config set registry https://registry.npmmirror.com
 ```
 
@@ -44,7 +42,7 @@ npm config set registry https://registry.npmmirror.com
 
 注意：
 
-清楚缓存
+清除缓存
 ```
 nvm cache clear
 ```
@@ -60,5 +58,4 @@ npm config set registry https://registry.npmmirror.com
 检查生效
 ```
 npm config get registry
->>>>>>> 89566ac02eeb952a879d4c9f619b1b76adbfa61e
 ```

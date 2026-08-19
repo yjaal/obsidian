@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其他/other.md",
+                "file": "其他/简历.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "other"
+              "title": "简历"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a3d631347b82fa8",
@@ -217,8 +218,18 @@
   },
   "active": "e47a46e90ede0eb1",
   "lastOpenFiles": [
-    "python/工具/python版本记录.md",
+    "其他/正则.md",
+    "其他/简历.md",
+    "其他/Alist2.md",
+    "大模型/AI编程/deepseek harness.md",
+    "前端/node && npm/npm 与 node 升级.md",
+    "前端/node && npm/安装配置.md",
+    "大模型/AI编程/hermes agent.md",
+    "python/工具/相关工具.md",
+    "Excalidraw/Drawing 2026-08-12 10.39.15.excalidraw.md",
+    "Excalidraw",
     "其他/other.md",
+    "python/工具/python版本记录.md",
     "前端/html+css/2.css基础.md",
     "前端/piAgent/准备工作.md",
     "前端/piAgent",
@@ -235,15 +246,6 @@
     "前端/vue/7.路由/2.动态路由匹配.md",
     "前端/vue/1.基础/12.模板引用.md",
     "前端/vue/1.基础/13.组件基础.md",
-    "前端/node && npm/vite+vue3+electron.md",
-    "前端/node && npm/npm 与 node 升级.md",
-    "前端/vue/1.基础/8.事件处理.md",
-    "前端/vue/2.深入组件/14.组件注册.md",
-    "java/guava/cache使用.md",
-    "大模型/AI编程/openspec.md",
-    "大模型/AI编程/claud code.md",
-    "大模型/AI编程/spec-kit使用.md",
-    "python/工具/相关工具.md",
     "大模型/AI编程",
     "大模型/langchain学习/img/001.png",
     "大模型/langchain学习/img",
@@ -262,7 +264,6 @@
     "前端/arkTS/ArkUI/1、UI开发/img/089.gif",
     "前端/arkTS/ArkUI/1、UI开发/img/088.gif",
     "前端/arkTS/ArkUI/1、UI开发/img/087.gif",
-    "前端/arkTS/ArkUI/1、UI开发/4、使用文本",
     "未命名.canvas"
   ]
 }
