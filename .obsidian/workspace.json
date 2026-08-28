@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系统设计/系统设计面试：内幕指南/1.基础.md",
+                "file": "系统设计/系统设计面试：内幕指南/7.分布式系统中设计唯一ID生成器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.基础"
+              "title": "7.分布式系统中设计唯一ID生成器"
             }
           }
         ]
@@ -220,9 +220,13 @@
   },
   "active": "e47a46e90ede0eb1",
   "lastOpenFiles": [
+    "系统设计/系统设计面试：内幕指南/6.key-value存储设计.md",
+    "系统设计/系统设计面试：内幕指南/7.分布式系统中设计唯一ID生成器.md",
+    "系统设计/系统设计面试：内幕指南/5.一致性hash设计.md",
+    "系统设计/系统设计面试：内幕指南/4.设计一个限流器.md",
+    "系统设计/系统设计面试：内幕指南/1.基础.md",
     "系统设计/s09g网课/1. 网站设计.md",
     "系统设计/s09g网课/2. tiktok设计.md",
-    "系统设计/系统设计面试：内幕指南/1.基础.md",
     "系统设计/s09g网课",
     "大模型/深入理解AI Agent/3. 用户记忆和知识库.md",
     "系统设计/系统设计面试：内幕指南",
@@ -252,10 +256,7 @@
     "前端/node && npm/npm 与 node 升级.md",
     "前端/node && npm/安装配置.md",
     "大模型/AI编程/hermes agent.md",
-    "python/工具/相关工具.md",
-    "Excalidraw/Drawing 2026-08-12 10.39.15.excalidraw.md",
     "Excalidraw",
-    "python/工具/python版本记录.md",
     "前端/piAgent",
     "大模型/AI编程",
     "大模型/langchain学习/img/001.png",
