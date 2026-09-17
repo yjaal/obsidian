@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "preview/agent相关.md",
+                "file": "interview/agent相关.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "preview/agent相关.md",
+                "file": "interview/agent相关.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,8 +220,8 @@
   "active": "907ee484c7d5c172",
   "lastOpenFiles": [
     "系统设计/系统设计面试二：内幕指南/6.广告点击事件聚合.md",
-    "preview/agent相关.md",
-    "preview",
+    "interview/agent相关.md",
+    "interview",
     "系统设计/系统设计面试二：内幕指南/5.指标监控与告警系统.md",
     "系统设计/解决方案/1000万短信1小时发完.md",
     "系统设计/中间件/netty基本原理概述.md",
