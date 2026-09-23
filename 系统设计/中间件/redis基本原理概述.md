@@ -50,7 +50,7 @@ Redis Cluster 具备自动故障检测能力。当某个主节点失去连接或
 
 2、使用熔断机制。当流量到达一定的阈值时，就直接返回“系统拥挤”之类的提示，防止过多的请求打在数据库上。至少能保证一部分用户是可以正常使用，其他用户多刷新几次也能得到结果。
 
-3、提高数据库的容灾能力，可以使用[分库分表](https://zhida.zhihu.com/search?content_id=165163684&content_type=Article&match_order=1&q=%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3OTAxNjUwNDAsInEiOiLliIblupPliIbooagiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoxNjUxNjM2ODQsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.KFkBttbAUR6tRdiHg35mbZgLvqHL0uez_MhobqTlb0g&zhida_source=entity)，读写分离的策略。
+3、提高数据库的容灾能力，可以使用分库分表，读写分离的策略。
 
 4、为了防止 Redis 宕机导致缓存雪崩的问题，可以搭建 Redis 集群，提高 Redis 的容灾性。
 

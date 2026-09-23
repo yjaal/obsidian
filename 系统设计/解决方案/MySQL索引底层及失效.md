@@ -88,5 +88,3 @@ WHERE a = 1 OR b = 2   -- 若 b 无索引，整体失效
 ```sql
 EXPLAIN SELECT * FROM user WHERE name = 'abc';
 ```
-
-需要的话，我可以针对某个具体 SQL 帮你分析为什么没走索引。
